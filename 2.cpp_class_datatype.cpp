@@ -21,8 +21,8 @@ int main()
 	CRectangle rect, rectb;
 	rect.set_values(3,4);
 	rectb.set_values(5,6);
-	cout << "rect area: " << rect.area() << end1;
-	cout << "rectb area: " << rectb.area() << end1;
+	cout << "rect area: " << rect.area() << endl;
+	cout << "rectb area: " << rectb.area() << endl;
 	return 0;
 }
 
