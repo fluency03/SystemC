@@ -14,6 +14,7 @@ int main() {
 	int i=5, j=6, k;
 	long l=10, m=5, n;
 
+	// pass data type as argument
 	k = GetMax<int>(i,j);
 	n = GetMax<long>(l,m);
 
