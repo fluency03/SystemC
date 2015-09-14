@@ -3,6 +3,8 @@
 using namespace std;
 
 
+// A class that declares or inherits a virtual
+// function is called polymorphic class.
 class CPolygon{
 protected: // what do the protected, private, and public mean?
 	int width, height;
@@ -40,6 +42,8 @@ int main(){
 	ppoly2->set_values(4,5);
 	ppoly3->set_values(4,5);
 
+// Functional overriding: Redefine the virutal
+// functions in the derived classes
 	cout << ppoly1->area() << endl;
 	cout << ppoly2->area() << endl;
 	cout << ppoly3->area() << endl;
