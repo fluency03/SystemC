@@ -19,7 +19,7 @@ void CRectangle::set_values(int a, int b)
 int main()
 {
 	CRectangle a, *b, *c;
-	CRectangle *d = new CRectangle[2];
+	CRectangle *d = new CRectangle[2]; // one CRectangle array 
 	b = new CRectangle;
 	c = &a;
 	a.set_values(1,2);
