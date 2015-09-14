@@ -4,10 +4,15 @@ using namespace std;
 
 class CRectangle 
 {
-	int *width, *height; // why add * 
+	int *width, *height; // pointer in c
 public:
 	CRectangle(int, int);
-	~CRectangle(); // why add ~
+	
+	// A destructor will have exact same name as the class prefixed with a tilde (~) and 
+	// it can neither return a value nor can it take any parameters. Destructor can be 
+	// very useful for releasing resources before coming out of the program like closing 
+	// files, releasing memories etc.
+	~CRectangle(); 
 	int area() {return (*width * *height);}
 };
 
