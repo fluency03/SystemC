@@ -20,7 +20,7 @@ CVector::CVector(int a, int b)
 CVector CVector::operator + (CVector param)
 {
 	CVector temp;
-	temp.x = x + param.x; // why?
+	temp.x = x + param.x; 
 	temp.y = y + param.y;
 	return (temp);
 }
