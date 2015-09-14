@@ -6,6 +6,12 @@ class CRectangle
 {
 	int width, height;
 public:
+	// A class constructor is a special member function of a class that is executed 
+	// whenever we create new objects of that class.
+
+	// A constructor will have exact same name as the class and it does not have any 
+	// return type at all, not even void. Constructors can be very useful for setting 
+	// initial values for certain member variables.
 	CRectangle(int, int);
 	int area() {return (width*height);}
 };
