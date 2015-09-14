@@ -25,8 +25,8 @@ CRectangle::CRectangle()
 
 int main()
 {
-	CRectangle rect(3,4);
-	CRectangle rectb; //different from CRectangle rectb(); why?
+	CRectangle rect(3,4); // with parameterized
+	CRectangle rectb; // without parameterized
 	cout << "rect area: " << rect.area() << endl;
 	cout << "rectb area: " << rectb.area() << endl;
 	return 0;
