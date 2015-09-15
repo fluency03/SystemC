@@ -23,7 +23,7 @@
 
 3. What are ports? What are they used for?
 
-	Ports are the interfaces as gateways of modules, which connection the modules to the outside. 
+	Ports are the gateways of modules, which connection the modules to the outside. 
 
 4. What is the difference between positional-based and name-based port binding? What are advantages and disadvantages?
 
