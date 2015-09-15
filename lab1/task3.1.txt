@@ -1,0 +1,61 @@
+
+1. What are modules and what are they for?
+
+	Modules are class in C++, and similar to "entity" in VHDL.
+
+	They are basic building blocks, allowing to partition complex system into smaller components.  Typically hierarchy. 
+
+2. How many ways do you know to declare a module? Explain them.
+
+	----------------------------------------
+	SC_MODULE(Name){
+		...
+	};
+	----------------------------------------
+	class Name:public sc_module{
+		public: ...
+	}
+	----------------------------------------
+	struct Name:sc_module{
+		...
+	}
+	----------------------------------------
+
+3. What are ports? What are they used for?
+
+	Ports are the interfaces as gateways of modules, which connection the modules to the outside. 
+
+4. What is the difference between positional-based and name-based port binding? What are advantages and disadvantages?
+
+	// Module port bindings:
+	// By name binding, do for each port
+		instance_name.port_name (signal_name);
+	// By order port binding
+		instance_name ( signal_name, signal_name, … );
+	// By order using stream
+		instance_name << signal_name << signal_name, ...;
+
+	– By name (less error prone)
+	– By position (good just for small designs)
+
+
+5. A simple way to connect modules is by using sc_signal<T>. What is sc_signal<T>?
+
+	sc_signal<T> is a class template where the template argument T gives the type of the value of the signal. 
+
+6. Describe how the SystemC simulation kernel works, focusing in particular on:
+
+	• elaboration/simulation phase.
+
+	• how concurrency is implemented.
+	
+	• evaluate-update concept.
+
+
+
+
+
+
+
+
+
