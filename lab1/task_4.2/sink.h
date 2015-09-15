@@ -1,18 +1,21 @@
 // file name = sink.h
 
-#include"systemc.h"
-#include"channel.h"
+#include "systemc.h"
+#include "channel.h"
+
 class sink : public sc_module
 {
-   public:
-     sc_port<r_if> in;
 
-     SC_HAS_PROCESS(sink);
+public:
+	sc_port<r_if> in;
 
-     sink(sc_module_name name)
-     {
-      SC_THREAD(sink_p);
-     }
+	SC_HAS_PROCESS(sink);
 
-     void sink_p();
+	sink(sc_module_name name)
+	{
+		SC_THREAD(sink_p);
+	}
+
+	void sink_p();
+	
 };
