@@ -1,0 +1,59 @@
+1) What is a channel? What is an interface and how are they related to each other?
+
+	A channel is a container class for communication and synchronization. It provides and implements one or more interfaces. 
+
+	A interface specifies a set of access methods of the channel. 
+
+2) How do channels, interfaces and ports interact to provide communication? Illustrate with a figure.
+
+	 Modules contain Ports
+	 Channels provide Interfaces
+	 Ports bound to Interfaces
+
+3) What are virtual methods and what are they used for?
+
+	A pure virtual method by definition is a method that will only be implemented inside a derived class from the abstract base class. It has no implementation at all. 
+
+	For being redefined. 
+
+
+4) What is the difference between primitive and hierarchical channels? Explain how to choose when to use one or the other.
+
+https://sclive.wordpress.com/2008/01/11/systemc-tutorial-interfaces-and-channels-2/
+
+
+
+
+
+5) What is the difference between a module and a hierarchical channel?
+
+
+
+
+
+
+6) Where are a primitive and a hierarchical channel derived from?
+
+
+
+
+
+
+7) What is a sensitivity list? Explain the difference between static and dynamic sensitivity.
+
+	The sensitivity list is a list of signals. A change in value on one or more of these signals, causes the process to be activated:
+
+	Static sensitivity list is declared when a process is registered with the kernel.
+	
+	Dynamic sensitivity list. For example, for threads, the sensitivity may change each time wait() is called.
+
+
+8) What are events and what is their purpose?
+
+	Flexible, low-level synchronization primitive
+	Used to construct other forms of synchronization
+
+	Processes are triggered by events.
+
+	
+
