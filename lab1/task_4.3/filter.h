@@ -1,6 +1,6 @@
 // file name= filter.h
 
-#include"systemc.h"
+#include "systemc.h"
 
 SC_MODULE(filter)
 {
@@ -11,8 +11,8 @@ SC_MODULE(filter)
 
 	SC_CTOR(filter)
 	{
-	SC_METHOD (prc_filter);
-	sensitive << char_in;
+		SC_METHOD (prc_filter);
+		sensitive << char_in;
 	}
 
 };
