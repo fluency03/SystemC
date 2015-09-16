@@ -12,7 +12,7 @@ void driver::prc_drive()
 		for(i=0;i<26;i++)
 		{
 			d_char.write(arr[i]); 
-			wait(25,SC_NS);
+			wait(25,SC_NS);   // if remove this, the program will get stuck
 			for(int i=0;i<100000000; i++);// dealy in order to see the output.
 		}
 
