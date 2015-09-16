@@ -14,6 +14,8 @@ SC_MODULE(driver){
 	SC_CTOR(driver){
 		SC_THREAD(driver_a);
 		SC_THREAD(driver_b);
+		// SC_METHOD(driver_a);
+		// SC_METHOD(driver_b);
 	}
 
 };

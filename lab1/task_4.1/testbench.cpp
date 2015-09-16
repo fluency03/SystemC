@@ -8,15 +8,19 @@ void driver::driver_a(){
 
 	d_a.write( (bool)false );
 	wait(5, SC_NS);
+	// next_trigger(5, SC_NS);
 
 	d_a.write( (bool)true );
 	wait(5, SC_NS);
+	// next_trigger(5, SC_NS);
 
 	d_a.write( (bool)0 );
 	wait(5, SC_NS);
+	// next_trigger(5, SC_NS);
 
 	d_a.write( (bool)1 ); 
-	wait(5, SC_NS);
+	// wait(5, SC_NS);
+	// next_trigger(5, SC_NS);
 
 }
 
@@ -24,9 +28,11 @@ void driver::driver_b(){
 
 	d_b.write( (bool)0 );
 	wait(10, SC_NS);
+	// next_trigger(10, SC_NS);
 
 	d_b.write( (bool)1 ); 
 	wait(5, SC_NS);
+	// next_trigger(5, SC_NS);
 
 }
 
