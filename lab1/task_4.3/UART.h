@@ -5,7 +5,7 @@ This module emulate the behavior of th UART
 It reads one byte from the bus and it sends it to external world.
 */
 
-#include"systemc.h"
+#include "systemc.h"
 
 SC_MODULE(UART)
 {
@@ -16,8 +16,8 @@ SC_MODULE(UART)
 	
 	SC_CTOR(UART)
 	{
-	SC_METHOD (prc_UART);
-	sensitive << char_in;
+		SC_METHOD (prc_UART);
+		sensitive << char_in;
 	}
 
 };
