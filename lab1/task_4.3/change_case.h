@@ -1,6 +1,6 @@
 // file name= change_case.h
 
-#include"systemc.h"
+#include "systemc.h"
 
 SC_MODULE(change_case)
 {
@@ -11,8 +11,8 @@ SC_MODULE(change_case)
 
 	SC_CTOR(change_case)
 	{
-	SC_METHOD (prc_change_case);
-	sensitive << char_in;
+		SC_METHOD (prc_change_case);
+		sensitive << char_in;
 	}
 
 };
