@@ -1,6 +1,6 @@
 // file name= m_bus.h
 
-#include"systemc.h"
+#include "systemc.h"
 
 SC_MODULE(m_bus)
 {
@@ -13,8 +13,8 @@ SC_MODULE(m_bus)
 
 	SC_CTOR(m_bus)
 	{
-	SC_METHOD (prc_m_bus);
-	sensitive << char_in1 << char_in2 << selector;
+		SC_METHOD (prc_m_bus);
+		sensitive << char_in1 << char_in2 << selector;
 	}
 
 };
