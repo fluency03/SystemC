@@ -62,7 +62,7 @@ int sc_main(int argc, char *argv[])
     sc_start(1, SC_NS);
 
 
-	//sc_start(1000, SC_NS);
+	sc_start(100, SC_NS);
 
 	return 0;
 
