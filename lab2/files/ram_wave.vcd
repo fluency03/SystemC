@@ -1,5 +1,5 @@
 $date
-     Sep 18, 2015       16:02:23
+     Sep 19, 2015       10:17:06
 $end
 
 $version
@@ -53,11 +53,11 @@ b10000 aaaab
 0aaaad
 
 #25000
-b111111111111100 aaaaa
+b1100001 aaaaa
 b1 aaaab
 
 #30000
-b0 aaaaa
+b1110011 aaaaa
 b11 aaaab
 
 #35000
