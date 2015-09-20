@@ -3,6 +3,8 @@
 #include "systemc.h"
 #include "string.h"
 
+#include <stdlib.h>
+
 
 SC_MODULE(ram) {
 
@@ -25,28 +27,26 @@ SC_MODULE(ram) {
 
 		// --------------------------------------------------------
 
-		// FILE *fp = fopen("T1.txt","r"); // open file 
-		// if(!fp) {
-		// 	cout << "error. cannot find ram initial file." << endl;
-		// }
+		FILE *fp = fopen("T1.txt","r"); // open file 
+		if(!fp) {
+			cout << "error. cannot find ram initial file." << endl;
+		}
 
-		// buffer = new int[size];
-		// int ad;
-		// char * value;
-		// int i;
-		// for (i = 0; i < size; i++) {
-		// 	buffer[i] = 0;
-		// }
-		// while (fscanf(fp, "%d%s", &ad, value) != EOF) {
-		// 	buffer[ad] = int(*value) ;
-		// 	cout << "address: " << ad << "; " << "value: " << *value;
-		// }
+		buffer = new int[1040];
+		int ad, num, i;
+		while (fscanf(fp, "%i %x", &ad, &num) != EOF) {
+			// cout << "address: " << ad << "; " << "read value: " << num << endl;
+			buffer[ad] = num ;
+		}
+
+		for (i = 0; i<10; i++)
+			cout << "Some data read from TX.txt: " << "buffer"<<"["<<i<<"] = " << buffer[i] << endl;
 
 		// --------------------------------------------------------
 
-		// if (debug) {
-		// 	cout << "Running constructor of " << name() << endl;
-		// }
+		if (debug) {
+			cout << "Running constructor of " << name << endl;
+		}
 
 	}
 
