@@ -1,0 +1,4 @@
+add wave -position end  ram_wave:/SystemC/data
+add wave -position end  ram_wave:/SystemC/address
+add wave -position end  ram_wave:/SystemC/CE
+add wave -position end  ram_wave:/SystemC/WE
