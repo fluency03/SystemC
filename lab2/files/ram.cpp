@@ -13,16 +13,19 @@ void ram::ram_proc()
 		if (CE) {
 		    if (WE) {
 				buffer[address] = data;
-				cout << "The data written: " << data << endl;
+				// cout << "The data written: 0x" 
+					// << std::hex << std::uppercase << (int)data << endl;
 		    }
 		    else {
 				data = buffer[address];
-				cout << "The data read: " << buffer[address] << endl;
+				// cout << "The data read: 0x" 
+					// << std::hex << std::uppercase << (int)buffer[address] << endl;
 		    }
 		}
 		else{
 			if (WE){
 				// do nothing
+				// cout << "DO NOTHING! " << endl;
 			}
 			else{
 				data = 0xFF;

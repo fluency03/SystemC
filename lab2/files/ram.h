@@ -12,13 +12,13 @@ SC_MODULE(ram) {
 	sc_in<bool> WE;   // Write Enable
 	sc_in<bool> CE;   // Control Enable
 	sc_in<int> address;
-	sc_inout<int> data;
+	sc_inout<uint8_t> data;
 
 	void ram_proc();
 
 	SC_HAS_PROCESS(ram);
 
-	ram(sc_module_name name, int size = 32, bool debug = false) :
+	ram(sc_module_name name, int size, bool debug) :
 		sc_module(name), size(size), debug(debug)
 	{
 
@@ -32,15 +32,16 @@ SC_MODULE(ram) {
 			cout << "error. cannot find ram initial file." << endl;
 		}
 
-		buffer = new int[1040];
-		int ad, num, i;
+		buffer = new uint8_t[size];
+		int ad, i, num;
 		while (fscanf(fp, "%i %x", &ad, &num) != EOF) {
 			// cout << "address: " << ad << "; " << "read value: " << num << endl;
-			buffer[ad] = num ;
+			buffer[ad] = uint8_t(num) ;
 		}
 
-		for (i = 0; i<10; i++)
-			cout << "Some data read from TX.txt: " << "buffer"<<"["<<i<<"] = " << buffer[i] << endl;
+		// for (i = 0; i<10; i++)
+			// cout << "Some data read from T1.txt: " << "buffer"<<"["<<i<<"] = 0x" 
+					// << std::hex << std::uppercase << (int)buffer[i] << endl;
 
 		// --------------------------------------------------------
 
@@ -51,7 +52,7 @@ SC_MODULE(ram) {
 	}
 
 private:
-	int * buffer;
+	uint8_t * buffer;
 	const int size;
 	const bool debug;
 
