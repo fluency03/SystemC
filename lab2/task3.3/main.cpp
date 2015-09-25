@@ -3,6 +3,8 @@
 #include "systemc.h"
 #include "ram.h"
 // #include "testbench.h"
+#include <iomanip>
+#include <bitset>
 
 
 int sc_main(int argc, char *argv[])
@@ -62,7 +64,8 @@ int sc_main(int argc, char *argv[])
     CE1 = 1;
     CE2 = 1;
 
-    int ad, num;
+    int ad=0, num=0, error1=0, error2=0, odd1=0, odd2=0;
+
     while (fscanf(t, "%i %x", &ad, &num) != EOF) {
 
         WE1 = 0;
@@ -78,8 +81,16 @@ int sc_main(int argc, char *argv[])
                  << ", FILE is " << std::hex << std::uppercase << num 
                  << ", RAM1 is " << std::hex << std::uppercase << (int)data1 
                  << ", Odd Parity is " << (data1>>7) << endl;
+
+            // cout << std::bitset<32>(num) << endl;
+            // cout << std::bitset<32>(data1) << endl << endl;
+            // cout << "odd: " <<  (((uint8_t)num)>>7) << "; " << (data1>>7) << endl;
+            if ( (((uint8_t)num)>>7) != (data1>>7) )
+                odd1++;
+
             WE1 = 1;
             data1 = num;
+            error1++;
         }
 
         // test RAM2
@@ -89,11 +100,27 @@ int sc_main(int argc, char *argv[])
                  << ", FILE is " << std::hex << std::uppercase << num 
                  << ", RAM2 is " << std::hex << std::uppercase << (int)data2 
                  << ", Odd Parity is " << (data2>>7) << endl;
+
+            if ( (((uint8_t)num)>>7) != (data2>>7) )
+                odd2++;
+
             WE2 = 1;
             data2 = num;
+            error2++;
         }
 
     }
+
+    cout << "# of Mismatch in RAM1: " << std::dec << error1 << endl;
+    cout << "% of Mismatch in RAM1: " << std::setprecision(3) << ((float)error1/1041)*100 << "%" << endl;
+    cout << "# of incorrect odd in RAM1: " << std::dec << odd1 << endl;
+
+    cout << "# of Mismatch in RAM2: " << std::dec << error2 << endl;
+    cout << "% of Mismatch in RAM2: " << std::setprecision(3) << ((float)error2/1041)*100 << "%" << endl;
+    cout << "# of incorrect odd in RAM2: " << std::dec << odd2 << endl;
+
+
+
 
 	return 0;
 
