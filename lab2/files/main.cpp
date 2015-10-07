@@ -80,7 +80,7 @@ int sc_main(int argc, char *argv[])
 
             FILE *t2 = fopen("T2.txt","r"); // open file 
             if(!t2) {
-                cout << "ERROR. cannot find T1.txt." << endl;
+                cout << "ERROR. cannot find T2.txt." << endl;
             }
 
             CE = 1;
@@ -114,6 +114,7 @@ int sc_main(int argc, char *argv[])
             CE      = 1;
             sc_start(5, SC_NS);
          
+            WE      = 0;
             CE      = 0;
             sc_start(5, SC_NS);
          
@@ -126,10 +127,11 @@ int sc_main(int argc, char *argv[])
             data    = 0x01;
             sc_start(5, SC_NS);
          
-            WE      = 0;
+            // WE      = 1;
             address = 0x10;
             sc_start(5, SC_NS);
          
+            WE      = 1;
             address = 0x1;
             sc_start(5, SC_NS);
          
@@ -137,6 +139,7 @@ int sc_main(int argc, char *argv[])
             sc_start(5, SC_NS);
          
             CE      = 0;
+            // address = 0xFFFFFFFF;
             sc_start(1, SC_NS);
 
             break;
