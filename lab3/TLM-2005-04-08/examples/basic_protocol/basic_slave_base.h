@@ -26,6 +26,7 @@ class basic_slave_base :
   >
 {
 using basic_if<ADDRESS , DATA >::write;
+using basic_if<ADDRESS , DATA >::read;
 public:
   typedef  tlm_transport_if<
     basic_request< ADDRESS , DATA > ,
