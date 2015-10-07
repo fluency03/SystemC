@@ -6,8 +6,10 @@ UTILS = ../../utils
 PROTOCOL = ../basic_protocol
 USER = ../user
 
+GXX = gcc
 GXX = g++
-TARGET_ARCH = linux
+TARGET_ARCH = linux64
+SYSTEMC_HOME = /usr/local/systemc-2.3.1/
 
 DEPEND = -MM
 

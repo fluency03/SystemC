@@ -29,7 +29,7 @@ int sc_main( int argc , char **argv )
   mem_slave s("slave");
 
   m.initiator_port( s.target_port );
-  sc_start( -1 );
+  sc_start( 1, SC_NS );
 
   return 0;
 
