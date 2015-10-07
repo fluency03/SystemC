@@ -21,7 +21,7 @@ void master::run()
 
   DATA_TYPE d;
 
-  for( ADDRESS_TYPE a = 0; a < 20; a++ )
+  for( ADDRESS_TYPE a = 0; a < 150; a++ )
   {
 
     cout << "Writing Address " << a << " value " << a + 50 << endl;
@@ -29,7 +29,7 @@ void master::run()
 
   }
 
-  for( ADDRESS_TYPE a = 0; a < 20; a++ )
+  for( ADDRESS_TYPE a = 0; a < 150; a++ )
   {
 
     initiator_port.read( a , d );
