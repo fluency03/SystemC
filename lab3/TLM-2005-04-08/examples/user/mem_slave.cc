@@ -25,7 +25,8 @@ using basic_protocol::basic_status;
 
 mem_slave::mem_slave( sc_module_name module_name , int k ) :
   sc_module( module_name ) ,
-  target_port("iport")
+  target_port("iport"),
+  read_num(0), write_num(0)
 {
 
   target_port( *this );
@@ -39,6 +40,7 @@ basic_status mem_slave::write( const ADDRESS_TYPE &a , const DATA_TYPE &d )
 
   cout << name() << " writing at " << a << " value " << d << endl; 
   memory[a] = d;
+  write_num ++; // number of write counts up by 1
   return basic_protocol::SUCCESS;
 }
 
@@ -47,6 +49,7 @@ basic_status mem_slave::read( const ADDRESS_TYPE &a , DATA_TYPE &d )
 
   d = memory[a];
   cout << name() << " reading from " << a << " value " << d << endl;
+  read_num ++; // number of read counts up by 1
   return basic_protocol::SUCCESS;
 }
  

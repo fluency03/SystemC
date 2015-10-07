@@ -37,7 +37,7 @@ class mem_slave :
   public virtual basic_slave_base< ADDRESS_TYPE , DATA_TYPE >
 {
 public:
-  mem_slave( sc_module_name module_name , int k = 10 );
+  mem_slave( sc_module_name module_name , int k = 1 );
 
   sc_export< if_type > target_port;
 
@@ -46,8 +46,15 @@ public:
 
   ~mem_slave();
 
+  // return number of read and write transaction through mem_slave
+  unsigned int read_out() {return read_num;};
+  unsigned int write_out() {return write_num;};
+
+  unsigned int read_num, write_num;
+
 private:
   ADDRESS_TYPE *memory;
+
 
 };
 
