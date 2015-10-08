@@ -16,37 +16,45 @@
  *****************************************************************************/
 
 
-#ifndef MASTER_HEADER
-#define MASTER_HEADER
+#ifndef SWITCH_MASTER_HEADER
+#define SWITCH_MASTER_HEADER
 
 #include <systemc.h>
 
 #include "bus_types.h"
 #include "basic_initiator_port.h"
+#include "basic_slave_base.h"
+#include "basic_protocol.h"
 
 using basic_protocol::basic_initiator_port;
+using basic_protocol::basic_status;
+using basic_protocol::basic_slave_base;
+using tlm::tlm_transport_if;
 
-namespace user
+namespace user_switch
 {
 
-class switch_master : public sc_module
+class switch_master :  
+  public sc_module ,
+  public virtual basic_slave_base< ADDRESS_TYPE , DATA_TYPE >
 {
 public:
-  switch_master( sc_module_name module_name ,
-		 bool p , DATA_TYPE s ,
-		 ADDRESS_TYPE m = 0x20 );
+  switch_master( sc_module_name module_name );
 
-  SC_HAS_PROCESS( switch_master );
+  // SC_HAS_PROCESS( switch_master );
 
-  basic_initiator_port<ADDRESS_TYPE,DATA_TYPE> initiator_port;
+  basic_initiator_port<ADDRESS_TYPE, DATA_TYPE> initiator_port_odd;
+  basic_initiator_port<ADDRESS_TYPE, DATA_TYPE> initiator_port_even;
+  sc_export< if_type > target_port;
 
-private:
-  void run();
-  ADDRESS_TYPE start_address();
+  basic_status write( const ADDRESS_TYPE & , const DATA_TYPE & );
+  basic_status read( const ADDRESS_TYPE & , DATA_TYPE & );
 
-  bool parity;
-  DATA_TYPE start_data;
-  ADDRESS_TYPE max_address;
+  // return number of read and write transaction through switcher
+  unsigned int read_out() {return read_num;};
+  unsigned int write_out() {return write_num;};
+
+  unsigned int read_num, write_num;
 
 };
 

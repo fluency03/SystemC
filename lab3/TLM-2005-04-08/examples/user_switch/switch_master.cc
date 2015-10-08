@@ -18,61 +18,49 @@
 
 #include "switch_master.h"
 
-using user::switch_master;
+using user_switch::switch_master;
 
-switch_master::switch_master( sc_module_name module_name ,
-			      bool p ,
-			      DATA_TYPE s , 
-			      ADDRESS_TYPE m ) :
+switch_master::switch_master( sc_module_name module_name ) :
   sc_module( module_name ) , 
-  initiator_port("iport") ,
-  parity( p ) , 
-  start_data( s ) ,
-  max_address( m )
-{
-  SC_THREAD( run );
-}
-
-void switch_master::run()
+  initiator_port_odd("iport_odd") ,
+  initiator_port_even("iport_even") ,
+  target_port("tport") 
 {
 
-  DATA_TYPE d;
-
-  for( ADDRESS_TYPE a = start_address();
-       a < start_address() + max_address;
-       a += 2 )
-  {
-
-    cout << name() << " Writing Address " << a % max_address;
-    cout << " value " << a + start_data << endl;
- 
-    initiator_port.write( a % max_address , a + start_data );
-
-  }
-
-  for( ADDRESS_TYPE a = start_address();
-       a < start_address() + max_address;
-       a += 2 )
-  {
-
-    initiator_port.read( a % max_address , d );
-
-    cout << name() << " Read Address " << a % max_address;
-    cout << " got " << d << endl;
-
-  }
-
-  cout << name() << " Finished at " << sc_time_stamp() << endl;
+  target_port( *this );
 
 }
 
-ADDRESS_TYPE switch_master::start_address() {
+basic_status switch_master::write( const ADDRESS_TYPE &a , const DATA_TYPE &d )
+{
 
-  if( !parity ) {
-    return 0; // even from zero
+  if ((a%2)!=0){
+    // cout << name() << " transfer data from master to slave_odd @ " << a << " value " << d << endl; 
+    initiator_port_odd.write( a , d );
   }
-  else {
-    return 1 + max_address / 2; // odd from middle ( and then round )
+  else{
+    // cout << name() << " transfer data from master to slave_even @ " << a << " value " << d << endl; 
+    initiator_port_even.write( a , d );
   }
 
+  write_num ++; // number of write counts up by 1
+  return basic_protocol::SUCCESS;
 }
+
+basic_status switch_master::read( const ADDRESS_TYPE &a , DATA_TYPE &d )
+{
+
+  if ((a%2)!=0){
+    initiator_port_odd.read( a , d );
+    // cout << name() << " transfer data from slave_odd to master @ " << a << " value " << d << endl; 
+  }
+  else{
+    initiator_port_even.read( a , d );
+    // cout << name() << " transfer data from slave_even to master @ " << a << " value " << d << endl; 
+  }
+
+  read_num ++; // number of read counts up by 1
+  return basic_protocol::SUCCESS;
+}
+
+
