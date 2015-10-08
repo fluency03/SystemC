@@ -15,8 +15,8 @@
 
  *****************************************************************************/
 
-#ifndef MASTER_HEADER
-#define MASTER_HEADER
+#ifndef MASTER_NEW_HEADER
+#define MASTER_NEW_HEADER
 
 #include <systemc.h>
 
@@ -28,12 +28,12 @@ using basic_protocol::basic_initiator_port;
 namespace user_switch
 {
 
-class master : public sc_module
+class master_new : public sc_module
 {
 public:
-  master( sc_module_name module_name );
+  master_new( sc_module_name module_name );
 
-  SC_HAS_PROCESS( master );
+  SC_HAS_PROCESS( master_new );
 
   basic_initiator_port<ADDRESS_TYPE, DATA_TYPE> initiator_port;
 

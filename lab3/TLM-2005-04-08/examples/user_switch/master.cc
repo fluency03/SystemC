@@ -7,7 +7,7 @@
 
 #include "master.h"
 
-using user::master;
+using user_switch::master;
 
 master::master( sc_module_name module_name ) :
   sc_module( module_name ) , 
@@ -21,15 +21,19 @@ void master::run()
 
   DATA_TYPE d;
 
-  for( ADDRESS_TYPE a = 0; a < 150; a++ )
+  cout << " =============== This is data WRITING!! =============== " << endl; 
+
+  for( ADDRESS_TYPE a = 0; a <= 100; a++ )
   {
 
     cout << "Writing Address " << a << " value " << a + 50 << endl;
-    initiator_port.write( a , a + 50 );
+    initiator_port.write( a , a + 200 );
 
   }
 
-  for( ADDRESS_TYPE a = 0; a < 150; a++ )
+  cout << " =============== This is data READING!! =============== " << endl;
+
+  for( ADDRESS_TYPE a = 0; a <= 100; a++ )
   {
 
     initiator_port.read( a , d );
