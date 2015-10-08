@@ -19,7 +19,7 @@
 
 #include "mem_slave.h"
 
-using user::mem_slave;
+using user_switch::mem_slave;
 
 using basic_protocol::basic_status;
 
@@ -38,7 +38,7 @@ mem_slave::mem_slave( sc_module_name module_name , int k ) :
 basic_status mem_slave::write( const ADDRESS_TYPE &a , const DATA_TYPE &d )
 {
 
-  cout << name() << " writing at " << a << " value " << d << endl; 
+  // cout << name() << " writing @ " << a << " value " << d << endl; 
   memory[a] = d;
   write_num ++; // number of write counts up by 1
   return basic_protocol::SUCCESS;
@@ -48,7 +48,7 @@ basic_status mem_slave::read( const ADDRESS_TYPE &a , DATA_TYPE &d )
 {
 
   d = memory[a];
-  cout << name() << " reading from " << a << " value " << d << endl;
+  // cout << name() << " reading from " << a << " value " << d << endl;
   read_num ++; // number of read counts up by 1
   return basic_protocol::SUCCESS;
 }

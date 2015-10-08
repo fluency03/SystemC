@@ -29,7 +29,7 @@ using basic_protocol::basic_status;
 using basic_protocol::basic_slave_base;
 using tlm::tlm_transport_if;
 
-namespace user
+namespace user_switch
 {
 
 class mem_slave :
