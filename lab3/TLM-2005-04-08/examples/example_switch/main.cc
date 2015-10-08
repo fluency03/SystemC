@@ -17,23 +17,41 @@
 
 
 #include "master.h"
+#include "master_new.h"
 #include "mem_slave.h"
+#include "switch_master.h"
 
-using user::master;
-using user::mem_slave;
+using user_switch::master;
+using user_switch::master_new;
+using user_switch::mem_slave;
+using user_switch::switch_master;
 
 int sc_main( int argc , char **argv )
 {
 
-  master m("master");
-  mem_slave s("slave");
+  // master m("master");
+  master_new m("master_new");
+  switch_master switcher("switcher");
+  mem_slave s_odd("slave_odd");
+  mem_slave s_even("slave_even");
 
-  m.initiator_port( s.target_port );
+  m.initiator_port( switcher.target_port );
+  switcher.initiator_port_odd( s_odd.target_port );
+  switcher.initiator_port_even( s_even.target_port );
 
   sc_start( 1, SC_NS );
 
-  cout << "# of read: " << s.read_out() << endl;
-  cout << "# of write: " << s.write_out() << endl;
+  cout << " =============== Summary from slave_odd =============== " << endl;
+  cout << "#read @ slave_odd: " << s_odd.read_out() << endl;
+  cout << "#write @ slave_odd: " << s_odd.write_out() << endl;
+
+  cout << " =============== Summary from slave_even =============== " << endl;
+  cout << "#read @ slave_even: " << s_even.read_out() << endl;
+  cout << "#write @ slave_even: " << s_even.write_out() << endl;
+
+  cout << " =============== Summary from switcher =============== " << endl;
+  cout << "#transactions from master to slave: " << switcher.write_out() << endl;
+  cout << "#transactions from slave to master: " << switcher.read_out() << endl;
 
   return 0;
 

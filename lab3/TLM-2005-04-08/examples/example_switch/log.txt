@@ -1,602 +1,617 @@
+ =============== This is data WRITING!! =============== 
 Writing Address 0 value 50
-slave writing at 0 value 50
+switcher transfer data from master to slave_even @ 0 value 200
+slave_even writing @ 0 value 200
 Writing Address 1 value 51
-slave writing at 1 value 51
+switcher transfer data from master to slave_odd @ 1 value 201
+slave_odd writing @ 1 value 201
 Writing Address 2 value 52
-slave writing at 2 value 52
+switcher transfer data from master to slave_even @ 2 value 202
+slave_even writing @ 2 value 202
 Writing Address 3 value 53
-slave writing at 3 value 53
+switcher transfer data from master to slave_odd @ 3 value 203
+slave_odd writing @ 3 value 203
 Writing Address 4 value 54
-slave writing at 4 value 54
+switcher transfer data from master to slave_even @ 4 value 204
+slave_even writing @ 4 value 204
 Writing Address 5 value 55
-slave writing at 5 value 55
+switcher transfer data from master to slave_odd @ 5 value 205
+slave_odd writing @ 5 value 205
 Writing Address 6 value 56
-slave writing at 6 value 56
+switcher transfer data from master to slave_even @ 6 value 206
+slave_even writing @ 6 value 206
 Writing Address 7 value 57
-slave writing at 7 value 57
+switcher transfer data from master to slave_odd @ 7 value 207
+slave_odd writing @ 7 value 207
 Writing Address 8 value 58
-slave writing at 8 value 58
+switcher transfer data from master to slave_even @ 8 value 208
+slave_even writing @ 8 value 208
 Writing Address 9 value 59
-slave writing at 9 value 59
+switcher transfer data from master to slave_odd @ 9 value 209
+slave_odd writing @ 9 value 209
 Writing Address 10 value 60
-slave writing at 10 value 60
+switcher transfer data from master to slave_even @ 10 value 210
+slave_even writing @ 10 value 210
 Writing Address 11 value 61
-slave writing at 11 value 61
+switcher transfer data from master to slave_odd @ 11 value 211
+slave_odd writing @ 11 value 211
 Writing Address 12 value 62
-slave writing at 12 value 62
+switcher transfer data from master to slave_even @ 12 value 212
+slave_even writing @ 12 value 212
 Writing Address 13 value 63
-slave writing at 13 value 63
+switcher transfer data from master to slave_odd @ 13 value 213
+slave_odd writing @ 13 value 213
 Writing Address 14 value 64
-slave writing at 14 value 64
+switcher transfer data from master to slave_even @ 14 value 214
+slave_even writing @ 14 value 214
 Writing Address 15 value 65
-slave writing at 15 value 65
+switcher transfer data from master to slave_odd @ 15 value 215
+slave_odd writing @ 15 value 215
 Writing Address 16 value 66
-slave writing at 16 value 66
+switcher transfer data from master to slave_even @ 16 value 216
+slave_even writing @ 16 value 216
 Writing Address 17 value 67
-slave writing at 17 value 67
+switcher transfer data from master to slave_odd @ 17 value 217
+slave_odd writing @ 17 value 217
 Writing Address 18 value 68
-slave writing at 18 value 68
+switcher transfer data from master to slave_even @ 18 value 218
+slave_even writing @ 18 value 218
 Writing Address 19 value 69
-slave writing at 19 value 69
+switcher transfer data from master to slave_odd @ 19 value 219
+slave_odd writing @ 19 value 219
 Writing Address 20 value 70
-slave writing at 20 value 70
+switcher transfer data from master to slave_even @ 20 value 220
+slave_even writing @ 20 value 220
 Writing Address 21 value 71
-slave writing at 21 value 71
+switcher transfer data from master to slave_odd @ 21 value 221
+slave_odd writing @ 21 value 221
 Writing Address 22 value 72
-slave writing at 22 value 72
+switcher transfer data from master to slave_even @ 22 value 222
+slave_even writing @ 22 value 222
 Writing Address 23 value 73
-slave writing at 23 value 73
+switcher transfer data from master to slave_odd @ 23 value 223
+slave_odd writing @ 23 value 223
 Writing Address 24 value 74
-slave writing at 24 value 74
+switcher transfer data from master to slave_even @ 24 value 224
+slave_even writing @ 24 value 224
 Writing Address 25 value 75
-slave writing at 25 value 75
+switcher transfer data from master to slave_odd @ 25 value 225
+slave_odd writing @ 25 value 225
 Writing Address 26 value 76
-slave writing at 26 value 76
+switcher transfer data from master to slave_even @ 26 value 226
+slave_even writing @ 26 value 226
 Writing Address 27 value 77
-slave writing at 27 value 77
+switcher transfer data from master to slave_odd @ 27 value 227
+slave_odd writing @ 27 value 227
 Writing Address 28 value 78
-slave writing at 28 value 78
+switcher transfer data from master to slave_even @ 28 value 228
+slave_even writing @ 28 value 228
 Writing Address 29 value 79
-slave writing at 29 value 79
+switcher transfer data from master to slave_odd @ 29 value 229
+slave_odd writing @ 29 value 229
 Writing Address 30 value 80
-slave writing at 30 value 80
+switcher transfer data from master to slave_even @ 30 value 230
+slave_even writing @ 30 value 230
 Writing Address 31 value 81
-slave writing at 31 value 81
+switcher transfer data from master to slave_odd @ 31 value 231
+slave_odd writing @ 31 value 231
 Writing Address 32 value 82
-slave writing at 32 value 82
+switcher transfer data from master to slave_even @ 32 value 232
+slave_even writing @ 32 value 232
 Writing Address 33 value 83
-slave writing at 33 value 83
+switcher transfer data from master to slave_odd @ 33 value 233
+slave_odd writing @ 33 value 233
 Writing Address 34 value 84
-slave writing at 34 value 84
+switcher transfer data from master to slave_even @ 34 value 234
+slave_even writing @ 34 value 234
 Writing Address 35 value 85
-slave writing at 35 value 85
+switcher transfer data from master to slave_odd @ 35 value 235
+slave_odd writing @ 35 value 235
 Writing Address 36 value 86
-slave writing at 36 value 86
+switcher transfer data from master to slave_even @ 36 value 236
+slave_even writing @ 36 value 236
 Writing Address 37 value 87
-slave writing at 37 value 87
+switcher transfer data from master to slave_odd @ 37 value 237
+slave_odd writing @ 37 value 237
 Writing Address 38 value 88
-slave writing at 38 value 88
+switcher transfer data from master to slave_even @ 38 value 238
+slave_even writing @ 38 value 238
 Writing Address 39 value 89
-slave writing at 39 value 89
+switcher transfer data from master to slave_odd @ 39 value 239
+slave_odd writing @ 39 value 239
 Writing Address 40 value 90
-slave writing at 40 value 90
+switcher transfer data from master to slave_even @ 40 value 240
+slave_even writing @ 40 value 240
 Writing Address 41 value 91
-slave writing at 41 value 91
+switcher transfer data from master to slave_odd @ 41 value 241
+slave_odd writing @ 41 value 241
 Writing Address 42 value 92
-slave writing at 42 value 92
+switcher transfer data from master to slave_even @ 42 value 242
+slave_even writing @ 42 value 242
 Writing Address 43 value 93
-slave writing at 43 value 93
+switcher transfer data from master to slave_odd @ 43 value 243
+slave_odd writing @ 43 value 243
 Writing Address 44 value 94
-slave writing at 44 value 94
+switcher transfer data from master to slave_even @ 44 value 244
+slave_even writing @ 44 value 244
 Writing Address 45 value 95
-slave writing at 45 value 95
+switcher transfer data from master to slave_odd @ 45 value 245
+slave_odd writing @ 45 value 245
 Writing Address 46 value 96
-slave writing at 46 value 96
+switcher transfer data from master to slave_even @ 46 value 246
+slave_even writing @ 46 value 246
 Writing Address 47 value 97
-slave writing at 47 value 97
+switcher transfer data from master to slave_odd @ 47 value 247
+slave_odd writing @ 47 value 247
 Writing Address 48 value 98
-slave writing at 48 value 98
+switcher transfer data from master to slave_even @ 48 value 248
+slave_even writing @ 48 value 248
 Writing Address 49 value 99
-slave writing at 49 value 99
+switcher transfer data from master to slave_odd @ 49 value 249
+slave_odd writing @ 49 value 249
 Writing Address 50 value 100
-slave writing at 50 value 100
+switcher transfer data from master to slave_even @ 50 value 250
+slave_even writing @ 50 value 250
 Writing Address 51 value 101
-slave writing at 51 value 101
+switcher transfer data from master to slave_odd @ 51 value 251
+slave_odd writing @ 51 value 251
 Writing Address 52 value 102
-slave writing at 52 value 102
+switcher transfer data from master to slave_even @ 52 value 252
+slave_even writing @ 52 value 252
 Writing Address 53 value 103
-slave writing at 53 value 103
+switcher transfer data from master to slave_odd @ 53 value 253
+slave_odd writing @ 53 value 253
 Writing Address 54 value 104
-slave writing at 54 value 104
+switcher transfer data from master to slave_even @ 54 value 254
+slave_even writing @ 54 value 254
 Writing Address 55 value 105
-slave writing at 55 value 105
+switcher transfer data from master to slave_odd @ 55 value 255
+slave_odd writing @ 55 value 255
 Writing Address 56 value 106
-slave writing at 56 value 106
+switcher transfer data from master to slave_even @ 56 value 256
+slave_even writing @ 56 value 256
 Writing Address 57 value 107
-slave writing at 57 value 107
+switcher transfer data from master to slave_odd @ 57 value 257
+slave_odd writing @ 57 value 257
 Writing Address 58 value 108
-slave writing at 58 value 108
+switcher transfer data from master to slave_even @ 58 value 258
+slave_even writing @ 58 value 258
 Writing Address 59 value 109
-slave writing at 59 value 109
+switcher transfer data from master to slave_odd @ 59 value 259
+slave_odd writing @ 59 value 259
 Writing Address 60 value 110
-slave writing at 60 value 110
+switcher transfer data from master to slave_even @ 60 value 260
+slave_even writing @ 60 value 260
 Writing Address 61 value 111
-slave writing at 61 value 111
+switcher transfer data from master to slave_odd @ 61 value 261
+slave_odd writing @ 61 value 261
 Writing Address 62 value 112
-slave writing at 62 value 112
+switcher transfer data from master to slave_even @ 62 value 262
+slave_even writing @ 62 value 262
 Writing Address 63 value 113
-slave writing at 63 value 113
+switcher transfer data from master to slave_odd @ 63 value 263
+slave_odd writing @ 63 value 263
 Writing Address 64 value 114
-slave writing at 64 value 114
+switcher transfer data from master to slave_even @ 64 value 264
+slave_even writing @ 64 value 264
 Writing Address 65 value 115
-slave writing at 65 value 115
+switcher transfer data from master to slave_odd @ 65 value 265
+slave_odd writing @ 65 value 265
 Writing Address 66 value 116
-slave writing at 66 value 116
+switcher transfer data from master to slave_even @ 66 value 266
+slave_even writing @ 66 value 266
 Writing Address 67 value 117
-slave writing at 67 value 117
+switcher transfer data from master to slave_odd @ 67 value 267
+slave_odd writing @ 67 value 267
 Writing Address 68 value 118
-slave writing at 68 value 118
+switcher transfer data from master to slave_even @ 68 value 268
+slave_even writing @ 68 value 268
 Writing Address 69 value 119
-slave writing at 69 value 119
+switcher transfer data from master to slave_odd @ 69 value 269
+slave_odd writing @ 69 value 269
 Writing Address 70 value 120
-slave writing at 70 value 120
+switcher transfer data from master to slave_even @ 70 value 270
+slave_even writing @ 70 value 270
 Writing Address 71 value 121
-slave writing at 71 value 121
+switcher transfer data from master to slave_odd @ 71 value 271
+slave_odd writing @ 71 value 271
 Writing Address 72 value 122
-slave writing at 72 value 122
+switcher transfer data from master to slave_even @ 72 value 272
+slave_even writing @ 72 value 272
 Writing Address 73 value 123
-slave writing at 73 value 123
+switcher transfer data from master to slave_odd @ 73 value 273
+slave_odd writing @ 73 value 273
 Writing Address 74 value 124
-slave writing at 74 value 124
+switcher transfer data from master to slave_even @ 74 value 274
+slave_even writing @ 74 value 274
 Writing Address 75 value 125
-slave writing at 75 value 125
+switcher transfer data from master to slave_odd @ 75 value 275
+slave_odd writing @ 75 value 275
 Writing Address 76 value 126
-slave writing at 76 value 126
+switcher transfer data from master to slave_even @ 76 value 276
+slave_even writing @ 76 value 276
 Writing Address 77 value 127
-slave writing at 77 value 127
+switcher transfer data from master to slave_odd @ 77 value 277
+slave_odd writing @ 77 value 277
 Writing Address 78 value 128
-slave writing at 78 value 128
+switcher transfer data from master to slave_even @ 78 value 278
+slave_even writing @ 78 value 278
 Writing Address 79 value 129
-slave writing at 79 value 129
+switcher transfer data from master to slave_odd @ 79 value 279
+slave_odd writing @ 79 value 279
 Writing Address 80 value 130
-slave writing at 80 value 130
+switcher transfer data from master to slave_even @ 80 value 280
+slave_even writing @ 80 value 280
 Writing Address 81 value 131
-slave writing at 81 value 131
+switcher transfer data from master to slave_odd @ 81 value 281
+slave_odd writing @ 81 value 281
 Writing Address 82 value 132
-slave writing at 82 value 132
+switcher transfer data from master to slave_even @ 82 value 282
+slave_even writing @ 82 value 282
 Writing Address 83 value 133
-slave writing at 83 value 133
+switcher transfer data from master to slave_odd @ 83 value 283
+slave_odd writing @ 83 value 283
 Writing Address 84 value 134
-slave writing at 84 value 134
+switcher transfer data from master to slave_even @ 84 value 284
+slave_even writing @ 84 value 284
 Writing Address 85 value 135
-slave writing at 85 value 135
+switcher transfer data from master to slave_odd @ 85 value 285
+slave_odd writing @ 85 value 285
 Writing Address 86 value 136
-slave writing at 86 value 136
+switcher transfer data from master to slave_even @ 86 value 286
+slave_even writing @ 86 value 286
 Writing Address 87 value 137
-slave writing at 87 value 137
+switcher transfer data from master to slave_odd @ 87 value 287
+slave_odd writing @ 87 value 287
 Writing Address 88 value 138
-slave writing at 88 value 138
+switcher transfer data from master to slave_even @ 88 value 288
+slave_even writing @ 88 value 288
 Writing Address 89 value 139
-slave writing at 89 value 139
+switcher transfer data from master to slave_odd @ 89 value 289
+slave_odd writing @ 89 value 289
 Writing Address 90 value 140
-slave writing at 90 value 140
+switcher transfer data from master to slave_even @ 90 value 290
+slave_even writing @ 90 value 290
 Writing Address 91 value 141
-slave writing at 91 value 141
+switcher transfer data from master to slave_odd @ 91 value 291
+slave_odd writing @ 91 value 291
 Writing Address 92 value 142
-slave writing at 92 value 142
+switcher transfer data from master to slave_even @ 92 value 292
+slave_even writing @ 92 value 292
 Writing Address 93 value 143
-slave writing at 93 value 143
+switcher transfer data from master to slave_odd @ 93 value 293
+slave_odd writing @ 93 value 293
 Writing Address 94 value 144
-slave writing at 94 value 144
+switcher transfer data from master to slave_even @ 94 value 294
+slave_even writing @ 94 value 294
 Writing Address 95 value 145
-slave writing at 95 value 145
+switcher transfer data from master to slave_odd @ 95 value 295
+slave_odd writing @ 95 value 295
 Writing Address 96 value 146
-slave writing at 96 value 146
+switcher transfer data from master to slave_even @ 96 value 296
+slave_even writing @ 96 value 296
 Writing Address 97 value 147
-slave writing at 97 value 147
+switcher transfer data from master to slave_odd @ 97 value 297
+slave_odd writing @ 97 value 297
 Writing Address 98 value 148
-slave writing at 98 value 148
+switcher transfer data from master to slave_even @ 98 value 298
+slave_even writing @ 98 value 298
 Writing Address 99 value 149
-slave writing at 99 value 149
+switcher transfer data from master to slave_odd @ 99 value 299
+slave_odd writing @ 99 value 299
 Writing Address 100 value 150
-slave writing at 100 value 150
-Writing Address 101 value 151
-slave writing at 101 value 151
-Writing Address 102 value 152
-slave writing at 102 value 152
-Writing Address 103 value 153
-slave writing at 103 value 153
-Writing Address 104 value 154
-slave writing at 104 value 154
-Writing Address 105 value 155
-slave writing at 105 value 155
-Writing Address 106 value 156
-slave writing at 106 value 156
-Writing Address 107 value 157
-slave writing at 107 value 157
-Writing Address 108 value 158
-slave writing at 108 value 158
-Writing Address 109 value 159
-slave writing at 109 value 159
-Writing Address 110 value 160
-slave writing at 110 value 160
-Writing Address 111 value 161
-slave writing at 111 value 161
-Writing Address 112 value 162
-slave writing at 112 value 162
-Writing Address 113 value 163
-slave writing at 113 value 163
-Writing Address 114 value 164
-slave writing at 114 value 164
-Writing Address 115 value 165
-slave writing at 115 value 165
-Writing Address 116 value 166
-slave writing at 116 value 166
-Writing Address 117 value 167
-slave writing at 117 value 167
-Writing Address 118 value 168
-slave writing at 118 value 168
-Writing Address 119 value 169
-slave writing at 119 value 169
-Writing Address 120 value 170
-slave writing at 120 value 170
-Writing Address 121 value 171
-slave writing at 121 value 171
-Writing Address 122 value 172
-slave writing at 122 value 172
-Writing Address 123 value 173
-slave writing at 123 value 173
-Writing Address 124 value 174
-slave writing at 124 value 174
-Writing Address 125 value 175
-slave writing at 125 value 175
-Writing Address 126 value 176
-slave writing at 126 value 176
-Writing Address 127 value 177
-slave writing at 127 value 177
-Writing Address 128 value 178
-slave writing at 128 value 178
-Writing Address 129 value 179
-slave writing at 129 value 179
-Writing Address 130 value 180
-slave writing at 130 value 180
-Writing Address 131 value 181
-slave writing at 131 value 181
-Writing Address 132 value 182
-slave writing at 132 value 182
-Writing Address 133 value 183
-slave writing at 133 value 183
-Writing Address 134 value 184
-slave writing at 134 value 184
-Writing Address 135 value 185
-slave writing at 135 value 185
-Writing Address 136 value 186
-slave writing at 136 value 186
-Writing Address 137 value 187
-slave writing at 137 value 187
-Writing Address 138 value 188
-slave writing at 138 value 188
-Writing Address 139 value 189
-slave writing at 139 value 189
-Writing Address 140 value 190
-slave writing at 140 value 190
-Writing Address 141 value 191
-slave writing at 141 value 191
-Writing Address 142 value 192
-slave writing at 142 value 192
-Writing Address 143 value 193
-slave writing at 143 value 193
-Writing Address 144 value 194
-slave writing at 144 value 194
-Writing Address 145 value 195
-slave writing at 145 value 195
-Writing Address 146 value 196
-slave writing at 146 value 196
-Writing Address 147 value 197
-slave writing at 147 value 197
-Writing Address 148 value 198
-slave writing at 148 value 198
-Writing Address 149 value 199
-slave writing at 149 value 199
-slave reading from 0 value 50
-Read Address 0 got 50
-slave reading from 1 value 51
-Read Address 1 got 51
-slave reading from 2 value 52
-Read Address 2 got 52
-slave reading from 3 value 53
-Read Address 3 got 53
-slave reading from 4 value 54
-Read Address 4 got 54
-slave reading from 5 value 55
-Read Address 5 got 55
-slave reading from 6 value 56
-Read Address 6 got 56
-slave reading from 7 value 57
-Read Address 7 got 57
-slave reading from 8 value 58
-Read Address 8 got 58
-slave reading from 9 value 59
-Read Address 9 got 59
-slave reading from 10 value 60
-Read Address 10 got 60
-slave reading from 11 value 61
-Read Address 11 got 61
-slave reading from 12 value 62
-Read Address 12 got 62
-slave reading from 13 value 63
-Read Address 13 got 63
-slave reading from 14 value 64
-Read Address 14 got 64
-slave reading from 15 value 65
-Read Address 15 got 65
-slave reading from 16 value 66
-Read Address 16 got 66
-slave reading from 17 value 67
-Read Address 17 got 67
-slave reading from 18 value 68
-Read Address 18 got 68
-slave reading from 19 value 69
-Read Address 19 got 69
-slave reading from 20 value 70
-Read Address 20 got 70
-slave reading from 21 value 71
-Read Address 21 got 71
-slave reading from 22 value 72
-Read Address 22 got 72
-slave reading from 23 value 73
-Read Address 23 got 73
-slave reading from 24 value 74
-Read Address 24 got 74
-slave reading from 25 value 75
-Read Address 25 got 75
-slave reading from 26 value 76
-Read Address 26 got 76
-slave reading from 27 value 77
-Read Address 27 got 77
-slave reading from 28 value 78
-Read Address 28 got 78
-slave reading from 29 value 79
-Read Address 29 got 79
-slave reading from 30 value 80
-Read Address 30 got 80
-slave reading from 31 value 81
-Read Address 31 got 81
-slave reading from 32 value 82
-Read Address 32 got 82
-slave reading from 33 value 83
-Read Address 33 got 83
-slave reading from 34 value 84
-Read Address 34 got 84
-slave reading from 35 value 85
-Read Address 35 got 85
-slave reading from 36 value 86
-Read Address 36 got 86
-slave reading from 37 value 87
-Read Address 37 got 87
-slave reading from 38 value 88
-Read Address 38 got 88
-slave reading from 39 value 89
-Read Address 39 got 89
-slave reading from 40 value 90
-Read Address 40 got 90
-slave reading from 41 value 91
-Read Address 41 got 91
-slave reading from 42 value 92
-Read Address 42 got 92
-slave reading from 43 value 93
-Read Address 43 got 93
-slave reading from 44 value 94
-Read Address 44 got 94
-slave reading from 45 value 95
-Read Address 45 got 95
-slave reading from 46 value 96
-Read Address 46 got 96
-slave reading from 47 value 97
-Read Address 47 got 97
-slave reading from 48 value 98
-Read Address 48 got 98
-slave reading from 49 value 99
-Read Address 49 got 99
-slave reading from 50 value 100
-Read Address 50 got 100
-slave reading from 51 value 101
-Read Address 51 got 101
-slave reading from 52 value 102
-Read Address 52 got 102
-slave reading from 53 value 103
-Read Address 53 got 103
-slave reading from 54 value 104
-Read Address 54 got 104
-slave reading from 55 value 105
-Read Address 55 got 105
-slave reading from 56 value 106
-Read Address 56 got 106
-slave reading from 57 value 107
-Read Address 57 got 107
-slave reading from 58 value 108
-Read Address 58 got 108
-slave reading from 59 value 109
-Read Address 59 got 109
-slave reading from 60 value 110
-Read Address 60 got 110
-slave reading from 61 value 111
-Read Address 61 got 111
-slave reading from 62 value 112
-Read Address 62 got 112
-slave reading from 63 value 113
-Read Address 63 got 113
-slave reading from 64 value 114
-Read Address 64 got 114
-slave reading from 65 value 115
-Read Address 65 got 115
-slave reading from 66 value 116
-Read Address 66 got 116
-slave reading from 67 value 117
-Read Address 67 got 117
-slave reading from 68 value 118
-Read Address 68 got 118
-slave reading from 69 value 119
-Read Address 69 got 119
-slave reading from 70 value 120
-Read Address 70 got 120
-slave reading from 71 value 121
-Read Address 71 got 121
-slave reading from 72 value 122
-Read Address 72 got 122
-slave reading from 73 value 123
-Read Address 73 got 123
-slave reading from 74 value 124
-Read Address 74 got 124
-slave reading from 75 value 125
-Read Address 75 got 125
-slave reading from 76 value 126
-Read Address 76 got 126
-slave reading from 77 value 127
-Read Address 77 got 127
-slave reading from 78 value 128
-Read Address 78 got 128
-slave reading from 79 value 129
-Read Address 79 got 129
-slave reading from 80 value 130
-Read Address 80 got 130
-slave reading from 81 value 131
-Read Address 81 got 131
-slave reading from 82 value 132
-Read Address 82 got 132
-slave reading from 83 value 133
-Read Address 83 got 133
-slave reading from 84 value 134
-Read Address 84 got 134
-slave reading from 85 value 135
-Read Address 85 got 135
-slave reading from 86 value 136
-Read Address 86 got 136
-slave reading from 87 value 137
-Read Address 87 got 137
-slave reading from 88 value 138
-Read Address 88 got 138
-slave reading from 89 value 139
-Read Address 89 got 139
-slave reading from 90 value 140
-Read Address 90 got 140
-slave reading from 91 value 141
-Read Address 91 got 141
-slave reading from 92 value 142
-Read Address 92 got 142
-slave reading from 93 value 143
-Read Address 93 got 143
-slave reading from 94 value 144
-Read Address 94 got 144
-slave reading from 95 value 145
-Read Address 95 got 145
-slave reading from 96 value 146
-Read Address 96 got 146
-slave reading from 97 value 147
-Read Address 97 got 147
-slave reading from 98 value 148
-Read Address 98 got 148
-slave reading from 99 value 149
-Read Address 99 got 149
-slave reading from 100 value 150
-Read Address 100 got 150
-slave reading from 101 value 151
-Read Address 101 got 151
-slave reading from 102 value 152
-Read Address 102 got 152
-slave reading from 103 value 153
-Read Address 103 got 153
-slave reading from 104 value 154
-Read Address 104 got 154
-slave reading from 105 value 155
-Read Address 105 got 155
-slave reading from 106 value 156
-Read Address 106 got 156
-slave reading from 107 value 157
-Read Address 107 got 157
-slave reading from 108 value 158
-Read Address 108 got 158
-slave reading from 109 value 159
-Read Address 109 got 159
-slave reading from 110 value 160
-Read Address 110 got 160
-slave reading from 111 value 161
-Read Address 111 got 161
-slave reading from 112 value 162
-Read Address 112 got 162
-slave reading from 113 value 163
-Read Address 113 got 163
-slave reading from 114 value 164
-Read Address 114 got 164
-slave reading from 115 value 165
-Read Address 115 got 165
-slave reading from 116 value 166
-Read Address 116 got 166
-slave reading from 117 value 167
-Read Address 117 got 167
-slave reading from 118 value 168
-Read Address 118 got 168
-slave reading from 119 value 169
-Read Address 119 got 169
-slave reading from 120 value 170
-Read Address 120 got 170
-slave reading from 121 value 171
-Read Address 121 got 171
-slave reading from 122 value 172
-Read Address 122 got 172
-slave reading from 123 value 173
-Read Address 123 got 173
-slave reading from 124 value 174
-Read Address 124 got 174
-slave reading from 125 value 175
-Read Address 125 got 175
-slave reading from 126 value 176
-Read Address 126 got 176
-slave reading from 127 value 177
-Read Address 127 got 177
-slave reading from 128 value 178
-Read Address 128 got 178
-slave reading from 129 value 179
-Read Address 129 got 179
-slave reading from 130 value 180
-Read Address 130 got 180
-slave reading from 131 value 181
-Read Address 131 got 181
-slave reading from 132 value 182
-Read Address 132 got 182
-slave reading from 133 value 183
-Read Address 133 got 183
-slave reading from 134 value 184
-Read Address 134 got 184
-slave reading from 135 value 185
-Read Address 135 got 185
-slave reading from 136 value 186
-Read Address 136 got 186
-slave reading from 137 value 187
-Read Address 137 got 187
-slave reading from 138 value 188
-Read Address 138 got 188
-slave reading from 139 value 189
-Read Address 139 got 189
-slave reading from 140 value 190
-Read Address 140 got 190
-slave reading from 141 value 191
-Read Address 141 got 191
-slave reading from 142 value 192
-Read Address 142 got 192
-slave reading from 143 value 193
-Read Address 143 got 193
-slave reading from 144 value 194
-Read Address 144 got 194
-slave reading from 145 value 195
-Read Address 145 got 195
-slave reading from 146 value 196
-Read Address 146 got 196
-slave reading from 147 value 197
-Read Address 147 got 197
-slave reading from 148 value 198
-Read Address 148 got 198
-slave reading from 149 value 199
-Read Address 149 got 199
-# of read: 150
-# of write: 150
+switcher transfer data from master to slave_even @ 100 value 300
+slave_even writing @ 100 value 300
+ =============== This is data READING!! =============== 
+slave_even reading from 0 value 200
+switcher transfer data from slave_even to master @ 0 value 200
+Read Address 0 got 200
+slave_odd reading from 1 value 201
+switcher transfer data from slave_odd to master @ 1 value 201
+Read Address 1 got 201
+slave_even reading from 2 value 202
+switcher transfer data from slave_even to master @ 2 value 202
+Read Address 2 got 202
+slave_odd reading from 3 value 203
+switcher transfer data from slave_odd to master @ 3 value 203
+Read Address 3 got 203
+slave_even reading from 4 value 204
+switcher transfer data from slave_even to master @ 4 value 204
+Read Address 4 got 204
+slave_odd reading from 5 value 205
+switcher transfer data from slave_odd to master @ 5 value 205
+Read Address 5 got 205
+slave_even reading from 6 value 206
+switcher transfer data from slave_even to master @ 6 value 206
+Read Address 6 got 206
+slave_odd reading from 7 value 207
+switcher transfer data from slave_odd to master @ 7 value 207
+Read Address 7 got 207
+slave_even reading from 8 value 208
+switcher transfer data from slave_even to master @ 8 value 208
+Read Address 8 got 208
+slave_odd reading from 9 value 209
+switcher transfer data from slave_odd to master @ 9 value 209
+Read Address 9 got 209
+slave_even reading from 10 value 210
+switcher transfer data from slave_even to master @ 10 value 210
+Read Address 10 got 210
+slave_odd reading from 11 value 211
+switcher transfer data from slave_odd to master @ 11 value 211
+Read Address 11 got 211
+slave_even reading from 12 value 212
+switcher transfer data from slave_even to master @ 12 value 212
+Read Address 12 got 212
+slave_odd reading from 13 value 213
+switcher transfer data from slave_odd to master @ 13 value 213
+Read Address 13 got 213
+slave_even reading from 14 value 214
+switcher transfer data from slave_even to master @ 14 value 214
+Read Address 14 got 214
+slave_odd reading from 15 value 215
+switcher transfer data from slave_odd to master @ 15 value 215
+Read Address 15 got 215
+slave_even reading from 16 value 216
+switcher transfer data from slave_even to master @ 16 value 216
+Read Address 16 got 216
+slave_odd reading from 17 value 217
+switcher transfer data from slave_odd to master @ 17 value 217
+Read Address 17 got 217
+slave_even reading from 18 value 218
+switcher transfer data from slave_even to master @ 18 value 218
+Read Address 18 got 218
+slave_odd reading from 19 value 219
+switcher transfer data from slave_odd to master @ 19 value 219
+Read Address 19 got 219
+slave_even reading from 20 value 220
+switcher transfer data from slave_even to master @ 20 value 220
+Read Address 20 got 220
+slave_odd reading from 21 value 221
+switcher transfer data from slave_odd to master @ 21 value 221
+Read Address 21 got 221
+slave_even reading from 22 value 222
+switcher transfer data from slave_even to master @ 22 value 222
+Read Address 22 got 222
+slave_odd reading from 23 value 223
+switcher transfer data from slave_odd to master @ 23 value 223
+Read Address 23 got 223
+slave_even reading from 24 value 224
+switcher transfer data from slave_even to master @ 24 value 224
+Read Address 24 got 224
+slave_odd reading from 25 value 225
+switcher transfer data from slave_odd to master @ 25 value 225
+Read Address 25 got 225
+slave_even reading from 26 value 226
+switcher transfer data from slave_even to master @ 26 value 226
+Read Address 26 got 226
+slave_odd reading from 27 value 227
+switcher transfer data from slave_odd to master @ 27 value 227
+Read Address 27 got 227
+slave_even reading from 28 value 228
+switcher transfer data from slave_even to master @ 28 value 228
+Read Address 28 got 228
+slave_odd reading from 29 value 229
+switcher transfer data from slave_odd to master @ 29 value 229
+Read Address 29 got 229
+slave_even reading from 30 value 230
+switcher transfer data from slave_even to master @ 30 value 230
+Read Address 30 got 230
+slave_odd reading from 31 value 231
+switcher transfer data from slave_odd to master @ 31 value 231
+Read Address 31 got 231
+slave_even reading from 32 value 232
+switcher transfer data from slave_even to master @ 32 value 232
+Read Address 32 got 232
+slave_odd reading from 33 value 233
+switcher transfer data from slave_odd to master @ 33 value 233
+Read Address 33 got 233
+slave_even reading from 34 value 234
+switcher transfer data from slave_even to master @ 34 value 234
+Read Address 34 got 234
+slave_odd reading from 35 value 235
+switcher transfer data from slave_odd to master @ 35 value 235
+Read Address 35 got 235
+slave_even reading from 36 value 236
+switcher transfer data from slave_even to master @ 36 value 236
+Read Address 36 got 236
+slave_odd reading from 37 value 237
+switcher transfer data from slave_odd to master @ 37 value 237
+Read Address 37 got 237
+slave_even reading from 38 value 238
+switcher transfer data from slave_even to master @ 38 value 238
+Read Address 38 got 238
+slave_odd reading from 39 value 239
+switcher transfer data from slave_odd to master @ 39 value 239
+Read Address 39 got 239
+slave_even reading from 40 value 240
+switcher transfer data from slave_even to master @ 40 value 240
+Read Address 40 got 240
+slave_odd reading from 41 value 241
+switcher transfer data from slave_odd to master @ 41 value 241
+Read Address 41 got 241
+slave_even reading from 42 value 242
+switcher transfer data from slave_even to master @ 42 value 242
+Read Address 42 got 242
+slave_odd reading from 43 value 243
+switcher transfer data from slave_odd to master @ 43 value 243
+Read Address 43 got 243
+slave_even reading from 44 value 244
+switcher transfer data from slave_even to master @ 44 value 244
+Read Address 44 got 244
+slave_odd reading from 45 value 245
+switcher transfer data from slave_odd to master @ 45 value 245
+Read Address 45 got 245
+slave_even reading from 46 value 246
+switcher transfer data from slave_even to master @ 46 value 246
+Read Address 46 got 246
+slave_odd reading from 47 value 247
+switcher transfer data from slave_odd to master @ 47 value 247
+Read Address 47 got 247
+slave_even reading from 48 value 248
+switcher transfer data from slave_even to master @ 48 value 248
+Read Address 48 got 248
+slave_odd reading from 49 value 249
+switcher transfer data from slave_odd to master @ 49 value 249
+Read Address 49 got 249
+slave_even reading from 50 value 250
+switcher transfer data from slave_even to master @ 50 value 250
+Read Address 50 got 250
+slave_odd reading from 51 value 251
+switcher transfer data from slave_odd to master @ 51 value 251
+Read Address 51 got 251
+slave_even reading from 52 value 252
+switcher transfer data from slave_even to master @ 52 value 252
+Read Address 52 got 252
+slave_odd reading from 53 value 253
+switcher transfer data from slave_odd to master @ 53 value 253
+Read Address 53 got 253
+slave_even reading from 54 value 254
+switcher transfer data from slave_even to master @ 54 value 254
+Read Address 54 got 254
+slave_odd reading from 55 value 255
+switcher transfer data from slave_odd to master @ 55 value 255
+Read Address 55 got 255
+slave_even reading from 56 value 256
+switcher transfer data from slave_even to master @ 56 value 256
+Read Address 56 got 256
+slave_odd reading from 57 value 257
+switcher transfer data from slave_odd to master @ 57 value 257
+Read Address 57 got 257
+slave_even reading from 58 value 258
+switcher transfer data from slave_even to master @ 58 value 258
+Read Address 58 got 258
+slave_odd reading from 59 value 259
+switcher transfer data from slave_odd to master @ 59 value 259
+Read Address 59 got 259
+slave_even reading from 60 value 260
+switcher transfer data from slave_even to master @ 60 value 260
+Read Address 60 got 260
+slave_odd reading from 61 value 261
+switcher transfer data from slave_odd to master @ 61 value 261
+Read Address 61 got 261
+slave_even reading from 62 value 262
+switcher transfer data from slave_even to master @ 62 value 262
+Read Address 62 got 262
+slave_odd reading from 63 value 263
+switcher transfer data from slave_odd to master @ 63 value 263
+Read Address 63 got 263
+slave_even reading from 64 value 264
+switcher transfer data from slave_even to master @ 64 value 264
+Read Address 64 got 264
+slave_odd reading from 65 value 265
+switcher transfer data from slave_odd to master @ 65 value 265
+Read Address 65 got 265
+slave_even reading from 66 value 266
+switcher transfer data from slave_even to master @ 66 value 266
+Read Address 66 got 266
+slave_odd reading from 67 value 267
+switcher transfer data from slave_odd to master @ 67 value 267
+Read Address 67 got 267
+slave_even reading from 68 value 268
+switcher transfer data from slave_even to master @ 68 value 268
+Read Address 68 got 268
+slave_odd reading from 69 value 269
+switcher transfer data from slave_odd to master @ 69 value 269
+Read Address 69 got 269
+slave_even reading from 70 value 270
+switcher transfer data from slave_even to master @ 70 value 270
+Read Address 70 got 270
+slave_odd reading from 71 value 271
+switcher transfer data from slave_odd to master @ 71 value 271
+Read Address 71 got 271
+slave_even reading from 72 value 272
+switcher transfer data from slave_even to master @ 72 value 272
+Read Address 72 got 272
+slave_odd reading from 73 value 273
+switcher transfer data from slave_odd to master @ 73 value 273
+Read Address 73 got 273
+slave_even reading from 74 value 274
+switcher transfer data from slave_even to master @ 74 value 274
+Read Address 74 got 274
+slave_odd reading from 75 value 275
+switcher transfer data from slave_odd to master @ 75 value 275
+Read Address 75 got 275
+slave_even reading from 76 value 276
+switcher transfer data from slave_even to master @ 76 value 276
+Read Address 76 got 276
+slave_odd reading from 77 value 277
+switcher transfer data from slave_odd to master @ 77 value 277
+Read Address 77 got 277
+slave_even reading from 78 value 278
+switcher transfer data from slave_even to master @ 78 value 278
+Read Address 78 got 278
+slave_odd reading from 79 value 279
+switcher transfer data from slave_odd to master @ 79 value 279
+Read Address 79 got 279
+slave_even reading from 80 value 280
+switcher transfer data from slave_even to master @ 80 value 280
+Read Address 80 got 280
+slave_odd reading from 81 value 281
+switcher transfer data from slave_odd to master @ 81 value 281
+Read Address 81 got 281
+slave_even reading from 82 value 282
+switcher transfer data from slave_even to master @ 82 value 282
+Read Address 82 got 282
+slave_odd reading from 83 value 283
+switcher transfer data from slave_odd to master @ 83 value 283
+Read Address 83 got 283
+slave_even reading from 84 value 284
+switcher transfer data from slave_even to master @ 84 value 284
+Read Address 84 got 284
+slave_odd reading from 85 value 285
+switcher transfer data from slave_odd to master @ 85 value 285
+Read Address 85 got 285
+slave_even reading from 86 value 286
+switcher transfer data from slave_even to master @ 86 value 286
+Read Address 86 got 286
+slave_odd reading from 87 value 287
+switcher transfer data from slave_odd to master @ 87 value 287
+Read Address 87 got 287
+slave_even reading from 88 value 288
+switcher transfer data from slave_even to master @ 88 value 288
+Read Address 88 got 288
+slave_odd reading from 89 value 289
+switcher transfer data from slave_odd to master @ 89 value 289
+Read Address 89 got 289
+slave_even reading from 90 value 290
+switcher transfer data from slave_even to master @ 90 value 290
+Read Address 90 got 290
+slave_odd reading from 91 value 291
+switcher transfer data from slave_odd to master @ 91 value 291
+Read Address 91 got 291
+slave_even reading from 92 value 292
+switcher transfer data from slave_even to master @ 92 value 292
+Read Address 92 got 292
+slave_odd reading from 93 value 293
+switcher transfer data from slave_odd to master @ 93 value 293
+Read Address 93 got 293
+slave_even reading from 94 value 294
+switcher transfer data from slave_even to master @ 94 value 294
+Read Address 94 got 294
+slave_odd reading from 95 value 295
+switcher transfer data from slave_odd to master @ 95 value 295
+Read Address 95 got 295
+slave_even reading from 96 value 296
+switcher transfer data from slave_even to master @ 96 value 296
+Read Address 96 got 296
+slave_odd reading from 97 value 297
+switcher transfer data from slave_odd to master @ 97 value 297
+Read Address 97 got 297
+slave_even reading from 98 value 298
+switcher transfer data from slave_even to master @ 98 value 298
+Read Address 98 got 298
+slave_odd reading from 99 value 299
+switcher transfer data from slave_odd to master @ 99 value 299
+Read Address 99 got 299
+slave_even reading from 100 value 300
+switcher transfer data from slave_even to master @ 100 value 300
+Read Address 100 got 300
+ =============== Summary from slave_odd =============== 
+#read @ slave_odd: 50
+#write @ slave_odd: 50
+ =============== Summary from slave_even =============== 
+#read @ slave_even: 51
+#write @ slave_even: 51
+ =============== Summary from switcher =============== 
+#transactions from master to slave: 101
+#transactions from slave to master: 101

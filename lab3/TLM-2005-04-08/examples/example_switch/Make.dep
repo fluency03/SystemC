@@ -1,4 +1,4 @@
-mem_slave.o: ../user/mem_slave.cc ../user/mem_slave.h \
+mem_slave.o: ../user_switch/mem_slave.cc ../user_switch/mem_slave.h \
  /usr/local/systemc-2.3.1//include/systemc.h \
  /usr/local/systemc-2.3.1//include/systemc \
  /usr/local/systemc-2.3.1//include/sysc/kernel/sc_cmnhdr.h \
@@ -143,7 +143,7 @@ mem_slave.o: ../user/mem_slave.cc ../user/mem_slave.h \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/bind_cc.hpp \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/bind_mf_cc.hpp \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/placeholders.hpp \
- ../user/bus_types.h ../basic_protocol/basic_protocol.h \
+ ../user_switch/bus_types.h ../basic_protocol/basic_protocol.h \
  ../basic_protocol/basic_slave_base.h ../basic_protocol/basic_protocol.h \
  /usr/local/systemc-2.3.1//include/tlm.h \
  /usr/local/systemc-2.3.1//include/tlm \
@@ -185,7 +185,8 @@ mem_slave.o: ../user/mem_slave.cc ../user/mem_slave.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_sockets/tlm_target_socket.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_quantum/tlm_quantum.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_quantum/tlm_global_quantum.h
-switch_master.o: ../user/switch_master.cc ../user/switch_master.h \
+switch_master.o: ../user_switch/switch_master.cc \
+ ../user_switch/switch_master.h \
  /usr/local/systemc-2.3.1//include/systemc.h \
  /usr/local/systemc-2.3.1//include/systemc \
  /usr/local/systemc-2.3.1//include/sysc/kernel/sc_cmnhdr.h \
@@ -330,7 +331,7 @@ switch_master.o: ../user/switch_master.cc ../user/switch_master.h \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/bind_cc.hpp \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/bind_mf_cc.hpp \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/placeholders.hpp \
- ../user/bus_types.h ../basic_protocol/basic_initiator_port.h \
+ ../user_switch/bus_types.h ../basic_protocol/basic_initiator_port.h \
  ../basic_protocol/basic_protocol.h \
  /usr/local/systemc-2.3.1//include/tlm.h \
  /usr/local/systemc-2.3.1//include/tlm \
@@ -372,7 +373,7 @@ switch_master.o: ../user/switch_master.cc ../user/switch_master.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_sockets/tlm_target_socket.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_quantum/tlm_quantum.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_quantum/tlm_global_quantum.h
-master.o: ../user/master.cc ../user/master.h \
+master.o: ../user_switch/master.cc ../user_switch/master.h \
  /usr/local/systemc-2.3.1//include/systemc.h \
  /usr/local/systemc-2.3.1//include/systemc \
  /usr/local/systemc-2.3.1//include/sysc/kernel/sc_cmnhdr.h \
@@ -517,7 +518,7 @@ master.o: ../user/master.cc ../user/master.h \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/bind_cc.hpp \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/bind_mf_cc.hpp \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/placeholders.hpp \
- ../user/bus_types.h ../basic_protocol/basic_initiator_port.h \
+ ../user_switch/bus_types.h ../basic_protocol/basic_initiator_port.h \
  ../basic_protocol/basic_protocol.h \
  /usr/local/systemc-2.3.1//include/tlm.h \
  /usr/local/systemc-2.3.1//include/tlm \
@@ -559,7 +560,7 @@ master.o: ../user/master.cc ../user/master.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_sockets/tlm_target_socket.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_quantum/tlm_quantum.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_quantum/tlm_global_quantum.h
-main.o: main.cc ../user/master.h \
+main.o: main.cc ../user_switch/master.h \
  /usr/local/systemc-2.3.1//include/systemc.h \
  /usr/local/systemc-2.3.1//include/systemc \
  /usr/local/systemc-2.3.1//include/sysc/kernel/sc_cmnhdr.h \
@@ -704,7 +705,7 @@ main.o: main.cc ../user/master.h \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/bind_cc.hpp \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/bind_mf_cc.hpp \
  /usr/local/systemc-2.3.1//include/sysc/packages/boost/bind/placeholders.hpp \
- ../user/bus_types.h ../basic_protocol/basic_initiator_port.h \
+ ../user_switch/bus_types.h ../basic_protocol/basic_initiator_port.h \
  ../basic_protocol/basic_protocol.h \
  /usr/local/systemc-2.3.1//include/tlm.h \
  /usr/local/systemc-2.3.1//include/tlm \
@@ -746,5 +747,5 @@ main.o: main.cc ../user/master.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_sockets/tlm_target_socket.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_quantum/tlm_quantum.h \
  /usr/local/systemc-2.3.1//include/tlm_core/tlm_2/tlm_quantum/tlm_global_quantum.h \
- ../user/mem_slave.h ../basic_protocol/basic_protocol.h \
- ../basic_protocol/basic_slave_base.h
+ ../user_switch/mem_slave.h ../basic_protocol/basic_protocol.h \
+ ../basic_protocol/basic_slave_base.h ../user_switch/switch_master.h

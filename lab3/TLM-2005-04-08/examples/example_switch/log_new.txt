@@ -1,0 +1,141 @@
+
+Warning: (W505) object already exists: master_new.run. Latter declaration will be renamed to master_new.run_0
+In file: ../../../../src/sysc/kernel/sc_object_manager.cpp:149
+
+Warning: (W505) object already exists: master_new.run. Latter declaration will be renamed to master_new.run_1
+In file: ../../../../src/sysc/kernel/sc_object_manager.cpp:149
+
+Warning: (W505) object already exists: master_new.run. Latter declaration will be renamed to master_new.run_2
+In file: ../../../../src/sysc/kernel/sc_object_manager.cpp:149
+
+Warning: (W505) object already exists: master_new.run. Latter declaration will be renamed to master_new.run_3
+In file: ../../../../src/sysc/kernel/sc_object_manager.cpp:149
+ =============== This is data WRITING!! =============== 
+Writing Address 11 value 4
+Writing Address 15 value 7
+Writing Address 12 value 18
+Writing Address 3 value 16
+Writing Address 33 value 14
+Writing Address 35 value 16
+Writing Address 21 value 7
+Writing Address 18 value 13
+Writing Address 55 value 10
+Writing Address 41 value 2
+ =============== This is data READING!! =============== 
+Read Address 11 got 4
+Read Address 15 got 7
+Read Address 12 got 18
+Read Address 3 got 16
+Read Address 33 got 14
+Read Address 35 got 16
+Read Address 21 got 7
+Read Address 18 got 13
+Read Address 55 got 10
+Read Address 41 got 2
+ =============== This is AVERAGE value!! =============== 
+The average value: 10.7
+ =============== This is data WRITING!! =============== 
+Writing Address 11 value 3
+Writing Address 15 value 8
+Writing Address 12 value 11
+Writing Address 3 value 20
+Writing Address 33 value 4
+Writing Address 35 value 7
+Writing Address 21 value 1
+Writing Address 18 value 7
+Writing Address 55 value 13
+Writing Address 41 value 17
+ =============== This is data READING!! =============== 
+Read Address 11 got 3
+Read Address 15 got 8
+Read Address 12 got 11
+Read Address 3 got 20
+Read Address 33 got 4
+Read Address 35 got 7
+Read Address 21 got 1
+Read Address 18 got 7
+Read Address 55 got 13
+Read Address 41 got 17
+ =============== This is AVERAGE value!! =============== 
+The average value: 9.1
+ =============== This is data WRITING!! =============== 
+Writing Address 11 value 12
+Writing Address 15 value 9
+Writing Address 12 value 8
+Writing Address 3 value 10
+Writing Address 33 value 3
+Writing Address 35 value 11
+Writing Address 21 value 3
+Writing Address 18 value 4
+Writing Address 55 value 8
+Writing Address 41 value 16
+ =============== This is data READING!! =============== 
+Read Address 11 got 12
+Read Address 15 got 9
+Read Address 12 got 8
+Read Address 3 got 10
+Read Address 33 got 3
+Read Address 35 got 11
+Read Address 21 got 3
+Read Address 18 got 4
+Read Address 55 got 8
+Read Address 41 got 16
+ =============== This is AVERAGE value!! =============== 
+The average value: 8.4
+ =============== This is data WRITING!! =============== 
+Writing Address 11 value 10
+Writing Address 15 value 3
+Writing Address 12 value 3
+Writing Address 3 value 19
+Writing Address 33 value 10
+Writing Address 35 value 8
+Writing Address 21 value 14
+Writing Address 18 value 17
+Writing Address 55 value 12
+Writing Address 41 value 3
+ =============== This is data READING!! =============== 
+Read Address 11 got 10
+Read Address 15 got 3
+Read Address 12 got 3
+Read Address 3 got 19
+Read Address 33 got 10
+Read Address 35 got 8
+Read Address 21 got 14
+Read Address 18 got 17
+Read Address 55 got 12
+Read Address 41 got 3
+ =============== This is AVERAGE value!! =============== 
+The average value: 9.9
+ =============== This is data WRITING!! =============== 
+Writing Address 11 value 10
+Writing Address 15 value 14
+Writing Address 12 value 2
+Writing Address 3 value 20
+Writing Address 33 value 5
+Writing Address 35 value 18
+Writing Address 21 value 19
+Writing Address 18 value 5
+Writing Address 55 value 16
+Writing Address 41 value 11
+ =============== This is data READING!! =============== 
+Read Address 11 got 10
+Read Address 15 got 14
+Read Address 12 got 2
+Read Address 3 got 20
+Read Address 33 got 5
+Read Address 35 got 18
+Read Address 21 got 19
+Read Address 18 got 5
+Read Address 55 got 16
+Read Address 41 got 11
+ =============== This is AVERAGE value!! =============== 
+The average value: 12
+ =============== Summary from slave_odd =============== 
+#read @ slave_odd: 40
+#write @ slave_odd: 40
+ =============== Summary from slave_even =============== 
+#read @ slave_even: 10
+#write @ slave_even: 10
+ =============== Summary from switcher =============== 
+#transactions from master to slave: 50
+#transactions from slave to master: 50
