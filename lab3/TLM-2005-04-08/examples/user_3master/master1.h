@@ -31,14 +31,19 @@ namespace user_3master
 class master1 : public sc_module
 {
 public:
-  master1( sc_module_name module_name );
+  sc_in<bool> clk;
+  
+  master1( sc_module_name module_name, int select );
 
   SC_HAS_PROCESS( master1 );
 
   basic_initiator_port<ADDRESS_TYPE, DATA_TYPE> initiator_port;
 
 private:
-  void run();
+  void run1();
+  void run2();
+  void run3();
+  // int select;
   
 };
 
