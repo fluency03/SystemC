@@ -52,6 +52,16 @@ public:
 
     }
 
+  unsigned int write0() { return m0.offer; }
+  unsigned int write1() { return m1.offer; }
+  unsigned int write2() { return m2.offer; }
+  unsigned int write3() { return m3.offer; }
+
+  unsigned int read0() { return m0.count; }
+  unsigned int read1() { return m1.count; }
+  unsigned int read2() { return m2.count; }
+  unsigned int read3() { return m3.count; }
+
 private:
   master1 m0, m1, m2, m3;
   mem_slave s; 
@@ -69,9 +79,16 @@ int sc_main( int argc , char **argv )
 
   sc_start( 100, SC_NS );
 
-  // cout << " =============== Summary from slave_odd =============== " << endl;
-  // cout << "#read @ slave_odd: " << s_odd.read_out() << endl;
-  // cout << "#write @ slave_odd: " << s_odd.write_out() << endl;
+  cout << " =============== Summary for transmits =============== " << endl;
+  cout << "Node0's #transmits: " << top1.write0() << endl;
+  cout << "Node1's #transmits: " << top1.write1() << endl;
+  cout << "Node2's #transmits: " << top1.write2() << endl;
+  cout << "Node3's #transmits: " << top1.write3() << endl;
+  cout << " =============== Summary for receives =============== " << endl;
+  cout << "Node0's #receives: " << top1.read0() << endl;
+  cout << "Node1's #receives: " << top1.read1() << endl;
+  cout << "Node2's #receives: " << top1.read2() << endl;
+  cout << "Node3's #receives: " << top1.read3() << endl;
 
   return 0;
 
