@@ -34,7 +34,9 @@ using basic_protocol::basic_initiator_port;
 namespace user_4node
 {
 
-class master1 : public sc_module
+class master1 : 
+  public sc_module ,
+  public virtual basic_slave_base< ADDRESS_TYPE , DATA_TYPE >
 {
 public:
   sc_in<bool> clk;
@@ -46,7 +48,10 @@ public:
   basic_initiator_port<ADDRESS_TYPE, DATA_TYPE> initiator_port;
   sc_export< if_type > target_port;
 
-  basic_status write( const DATA_TYPE & );
+  basic_status write( const ADDRESS_TYPE & , const DATA_TYPE & );
+  basic_status read( const ADDRESS_TYPE & , DATA_TYPE & );
+
+  ADDRESS_TYPE count, offer;
 
 private:
   void run0();
@@ -54,7 +59,6 @@ private:
   void run2();
   void run3();
   ADDRESS_TYPE *memory;
-  ADDRESS_TYPE count;
   
 };
 

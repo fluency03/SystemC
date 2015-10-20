@@ -13,10 +13,11 @@ master1::master1( sc_module_name module_name, int select ) :
   sc_module( module_name ) , 
   initiator_port("iport") ,
   target_port("tport") ,
-  count(0)
+  count(0), offer(0)
 {
 
-  memory = new ADDRESS_TYPE[ 1024 ];
+  target_port( *this );
+  memory = new ADDRESS_TYPE[ 64 ];
 
   if (select == 0){
     SC_THREAD( run0 );
@@ -52,11 +53,10 @@ void master1::run0()
 
   int ad, num;
   while (fscanf(fp, "%i %x", &ad, &num) != EOF) {
-    // buffer[ad] = uint8_t(num) ;
     d = uint8_t(num);
-    cout << " ====================== node0 ======================= " << endl; 
-    cout << "Writing Destination " << ad << " value " << d << endl;
-    initiator_port.transfer( ad , d );
+    cout << name() << " offers data: " << d << " to " << "node" << ad << endl;
+    initiator_port.write( ad , d );
+    offer++;
     wait();
   }
 
@@ -74,11 +74,10 @@ void master1::run1()
 
   int ad, num;
   while (fscanf(fp, "%i %x", &ad, &num) != EOF) {
-    // buffer[ad] = uint8_t(num) ;
     d = uint8_t(num);
-    cout << " ====================== node1 ======================= " << endl; 
-    cout << "Writing Destination " << ad << " value " << d << endl;
-    initiator_port.transfer( ad , d );
+    cout << name() << " offers data: " << d << " to " << "node" << ad << endl;
+    initiator_port.write( ad , d );
+    offer++;
     wait();
   }
 
@@ -96,11 +95,10 @@ void master1::run2()
 
   int ad, num;
   while (fscanf(fp, "%i %x", &ad, &num) != EOF) {
-    // buffer[ad] = uint8_t(num) ;
     d = uint8_t(num);
-    cout << " ====================== node2 ======================= " << endl; 
-    cout << "Writing Destination " << ad << " value " << d << endl;
-    initiator_port.transfer( ad , d );
+    cout << name() << " offers data: " << d << " to " << "node" << ad << endl;
+    initiator_port.write( ad , d );
+    offer++;
     wait();
   }
 
@@ -118,21 +116,26 @@ void master1::run3()
 
   int ad, num;
   while (fscanf(fp, "%i %x", &ad, &num) != EOF) {
-    // buffer[ad] = uint8_t(num) ;
     d = uint8_t(num);
-    cout << " ====================== node3 ======================= " << endl; 
-    cout << "Writing Destination " << ad << " value " << d << endl;
-    initiator_port.transfer( ad , d );
+    cout << name() << " offers data: " << d << " to " << "node" << ad << endl;
+    initiator_port.write( ad , d );
+    offer++;
     wait();
   }
 
 }
 
-basic_status master1::write( const DATA_TYPE &d )
+basic_status master1::write( const ADDRESS_TYPE &a , const DATA_TYPE &d )
 {
 
-  // cout << name() << " writing @ " << a << " value " << d << endl; 
+  cout << name() << " received data: " << d << endl; 
   memory[count] = d;
   count ++; // number of write counts up by 1
+  return basic_protocol::SUCCESS;
+}
+
+basic_status master1::read( const ADDRESS_TYPE &a , DATA_TYPE &d )
+{
+
   return basic_protocol::SUCCESS;
 }
