@@ -30,6 +30,8 @@ using basic_protocol::basic_status;
 using basic_protocol::basic_slave_base;
 using tlm::tlm_transport_if;
 
+using basic_protocol::basic_initiator_port;
+
 namespace user_4node
 {
 
@@ -52,7 +54,6 @@ public:
 
   basic_status write( const ADDRESS_TYPE & , const DATA_TYPE & );
   basic_status read( const ADDRESS_TYPE & , DATA_TYPE & );
-  basic_status transfer( const ADDRESS_TYPE & , DATA_TYPE & );
 
   ~mem_slave();
 

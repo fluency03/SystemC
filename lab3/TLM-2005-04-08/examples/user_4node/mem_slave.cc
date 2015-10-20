@@ -37,47 +37,35 @@ mem_slave::mem_slave( sc_module_name module_name , int k ) :
   target_port2( *this );
   target_port3( *this );
 
-  memory = new ADDRESS_TYPE[ k * 1024 ];
+  memory = new ADDRESS_TYPE[4];
 
-}
-
-basic_status mem_slave::transfer( const ADDRESS_TYPE &a , DATA_TYPE &d )
-{
-  switch (a) {
-    case 0:
-      initiator_port0.write( d );
-      break;
-    case 1:
-      initiator_port1.write( d );
-      break;
-    case 2:
-      initiator_port2.write( d );
-      break;
-    case 3:
-      initiator_port3.write( d );
-    default:
-      break;
-  }
-  // read_num ++; // number of read counts up by 1
-  return basic_protocol::SUCCESS;
 }
 
 basic_status mem_slave::write( const ADDRESS_TYPE &a , const DATA_TYPE &d )
 {
 
-  // cout << name() << " writing @ " << a << " value " << d << endl; 
-  memory[a] = d;
-  write_num ++; // number of write counts up by 1
+  cout << name() << " pass data: " << d << " to node" << a << endl; 
+  if (a==0){
+    initiator_port0.write( a , d );
+  }
+  if (a==1){
+    initiator_port1.write( a , d );
+  }
+  if (a==2){
+    initiator_port2.write( a , d );
+  }
+  if (a==3){
+    initiator_port3.write( a , d );
+  }
+  // write_num ++; // number of write counts up by 1
   return basic_protocol::SUCCESS;
 }
 
 basic_status mem_slave::read( const ADDRESS_TYPE &a , DATA_TYPE &d )
 {
 
-  d = memory[a];
-  // cout << name() << " reading from " << a << " value " << d << endl;
-  read_num ++; // number of read counts up by 1
   return basic_protocol::SUCCESS;
+  
 }
  
 mem_slave::~mem_slave() {
