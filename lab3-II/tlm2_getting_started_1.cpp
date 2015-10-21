@@ -57,18 +57,21 @@ struct Initiator: sc_module
   {
     // TLM-2 generic payload transaction, reused across calls to b_transport
     tlm::tlm_generic_payload* trans = new tlm::tlm_generic_payload;
-    sc_time delay = sc_time(10, SC_NS);
+    sc_time delay1 = sc_time(10, SC_NS);
+    sc_time delay2 = sc_time(10, SC_NS);
 
-    // Generate a random sequence of reads and writes
-    for (int i = 32; i < 96; i += 4)
+    // Generate a random sequence of writes
+    cout << "====================This is the write.====================" << endl;
+    for (int i = 0; i < 20; i += 1)
     {
 
-      tlm::tlm_command cmd = static_cast<tlm::tlm_command>(rand() % 2);
-      if (cmd == tlm::TLM_WRITE_COMMAND) data = 0xFF000000 | i;
+      // tlm::tlm_command cmd = static_cast<tlm::tlm_command>(rand() % 2);
+      tlm::tlm_command cmd = tlm::TLM_WRITE_COMMAND;
+      if (cmd == tlm::TLM_WRITE_COMMAND) data = (rand() % 256);
 
       // Initialize 8 out of the 10 attributes, byte_enable_length and extensions being unused
       trans->set_command( cmd );
-      trans->set_address( i );
+      trans->set_address( data );
       trans->set_data_ptr( reinterpret_cast<unsigned char*>(&data) );
       trans->set_data_length( 4 );
       trans->set_streaming_width( 4 ); // = data_length to indicate no streaming
@@ -76,19 +79,54 @@ struct Initiator: sc_module
       trans->set_dmi_allowed( false ); // Mandatory initial value
       trans->set_response_status( tlm::TLM_INCOMPLETE_RESPONSE ); // Mandatory initial value
 
-      socket->b_transport( *trans, delay );  // Blocking transport call
+      cout << "trans = { " << (cmd ? 'W' : 'R') << ", " << dec << i
+           << " } , data = " << dec << data << " at time " << sc_time_stamp()
+           << " delay = " << delay1 << endl;
+
+      socket->b_transport( *trans, delay1 );  // Blocking transport call
 
       // Initiator obliged to check response status and delay
       if ( trans->is_response_error() )
         SC_REPORT_ERROR("TLM-2", "Response error from b_transport");
 
-      cout << "trans = { " << (cmd ? 'W' : 'R') << ", " << hex << i
-           << " } , data = " << hex << data << " at time " << sc_time_stamp()
-           << " delay = " << delay << endl;
+      // Realize the delay annotated onto the transport call
+      wait(delay1);
+    }
+
+
+    // Generate a random sequence of reads
+    cout << "====================This is the read.====================" << endl;
+    for (int i = 0; i < 30; i += 1)
+    {
+
+      // tlm::tlm_command cmd = static_cast<tlm::tlm_command>(rand() % 2);
+      tlm::tlm_command cmd = tlm::TLM_READ_COMMAND;
+      if (cmd == tlm::TLM_READ_COMMAND) data = (rand() % 256);
+
+      // Initialize 8 out of the 10 attributes, byte_enable_length and extensions being unused
+      trans->set_command( cmd );
+      trans->set_address( data );
+      trans->set_data_ptr( reinterpret_cast<unsigned char*>(&data) );
+      trans->set_data_length( 4 );
+      trans->set_streaming_width( 4 ); // = data_length to indicate no streaming
+      trans->set_byte_enable_ptr( 0 ); // 0 indicates unused
+      trans->set_dmi_allowed( false ); // Mandatory initial value
+      trans->set_response_status( tlm::TLM_INCOMPLETE_RESPONSE ); // Mandatory initial value
+
+      cout << "trans = { " << (cmd ? 'W' : 'R') << ", " << dec << i
+           << " } , data = " << dec << data << " at time " << sc_time_stamp()
+           << " delay = " << delay2 << endl;
+
+      socket->b_transport( *trans, delay2 );  // Blocking transport call
+
+      // Initiator obliged to check response status and delay
+      if ( trans->is_response_error() )
+        SC_REPORT_ERROR("TLM-2", "Response error from b_transport");
 
       // Realize the delay annotated onto the transport call
-      wait(delay);
+      wait(delay2);
     }
+
   }
 
   // Internal data buffer used by initiator with generic payload
@@ -113,14 +151,14 @@ struct Memory: sc_module
 
     // Initialize memory with random data
     for (int i = 0; i < SIZE; i++)
-      mem[i] = 0xAA000000 | (rand() % 256);
+      mem[i] = 0x00000000 + i;
   }
 
   // TLM-2 blocking transport method
   virtual void b_transport( tlm::tlm_generic_payload& trans, sc_time& delay )
   {
     tlm::tlm_command cmd = trans.get_command();
-    sc_dt::uint64    adr = trans.get_address() / 4;
+    sc_dt::uint64    adr = trans.get_address();
     unsigned char*   ptr = trans.get_data_ptr();
     unsigned int     len = trans.get_data_length();
     unsigned char*   byt = trans.get_byte_enable_ptr();
@@ -135,10 +173,16 @@ struct Memory: sc_module
       SC_REPORT_ERROR("TLM-2", "Target does not support given generic payload transaction");
 
     // Obliged to implement read and write commands
-    if ( cmd == tlm::TLM_READ_COMMAND )
+    if ( cmd == tlm::TLM_READ_COMMAND ){
       memcpy(ptr, &mem[adr], len);
-    else if ( cmd == tlm::TLM_WRITE_COMMAND )
+      cout << "Data: " << dec << mem[adr] << 
+              " is read from Address: " << dec << adr << endl;
+    }
+    else if ( cmd == tlm::TLM_WRITE_COMMAND ){
       memcpy(&mem[adr], ptr, len);
+      cout << "Data: " << dec << mem[adr] << 
+              " is written into Address: " << dec << adr << endl;
+    }
 
     // Obliged to set response status to indicate successful completion
     trans.set_response_status( tlm::TLM_OK_RESPONSE );
