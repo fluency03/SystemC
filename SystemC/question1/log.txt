@@ -1,0 +1,107 @@
+y1=0 AT time=0 s
+	y2=0 AT time=0 s
+		y3=0 AT time=0 s
+			z=0 AT time=0 s
+x out: 0 AT time=0 s
+x out: 0 AT time=0 s
+					Output sequence is: 0 @0 s
+			z=1 AT time=1 ns
+		y3=0 AT time=1 ns
+y1=1 AT time=1 ns
+	y2=-1 AT time=1 ns
+x out: 10 AT time=1 ns
+					Output sequence is: 1 @1 ns
+			z=2 AT time=2 ns
+		y3=-2 AT time=2 ns
+y1=1 AT time=2 ns
+	y2=-1 AT time=2 ns
+x out: 20 AT time=2 ns
+					Output sequence is: 2 @2 ns
+			z=0 AT time=3 ns
+		y3=-2 AT time=3 ns
+y1=11 AT time=3 ns
+	y2=9 AT time=3 ns
+x out: 30 AT time=3 ns
+					Output sequence is: 0 @3 ns
+			z=10 AT time=4 ns
+		y3=18 AT time=4 ns
+y1=21 AT time=4 ns
+	y2=19 AT time=4 ns
+x out: 40 AT time=4 ns
+					Output sequence is: 10 @4 ns
+			z=40 AT time=5 ns
+		y3=38 AT time=5 ns
+y1=31 AT time=5 ns
+	y2=29 AT time=5 ns
+x out: 50 AT time=5 ns
+					Output sequence is: 40 @5 ns
+			z=70 AT time=6 ns
+		y3=58 AT time=6 ns
+y1=41 AT time=6 ns
+	y2=39 AT time=6 ns
+x out: 60 AT time=6 ns
+					Output sequence is: 70 @6 ns
+			z=100 AT time=7 ns
+		y3=78 AT time=7 ns
+y1=51 AT time=7 ns
+	y2=49 AT time=7 ns
+x out: 70 AT time=7 ns
+					Output sequence is: 100 @7 ns
+			z=130 AT time=8 ns
+		y3=98 AT time=8 ns
+y1=61 AT time=8 ns
+	y2=59 AT time=8 ns
+x out: 80 AT time=8 ns
+					Output sequence is: 130 @8 ns
+			z=160 AT time=9 ns
+		y3=118 AT time=9 ns
+y1=71 AT time=9 ns
+	y2=69 AT time=9 ns
+x out: 90 AT time=9 ns
+					Output sequence is: 160 @9 ns
+			z=190 AT time=10 ns
+		y3=138 AT time=10 ns
+y1=81 AT time=10 ns
+	y2=79 AT time=10 ns
+x out: 100 AT time=10 ns
+					Output sequence is: 190 @10 ns
+			z=220 AT time=11 ns
+		y3=158 AT time=11 ns
+y1=91 AT time=11 ns
+	y2=89 AT time=11 ns
+					Output sequence is: 220 @11 ns
+		y3=178 AT time=12 ns
+y1=101 AT time=12 ns
+	y2=99 AT time=12 ns
+			z=250 AT time=12 ns
+					Output sequence is: 250 @12 ns
+		y3=198 AT time=13 ns
+y1=101 AT time=13 ns
+	y2=99 AT time=13 ns
+			z=280 AT time=13 ns
+					Output sequence is: 280 @13 ns
+		y3=198 AT time=14 ns
+y1=101 AT time=14 ns
+	y2=99 AT time=14 ns
+			z=300 AT time=14 ns
+					Output sequence is: 300 @14 ns
+		y3=198 AT time=15 ns
+y1=101 AT time=15 ns
+	y2=99 AT time=15 ns
+			z=300 AT time=15 ns
+		y3=198 AT time=16 ns
+y1=101 AT time=16 ns
+	y2=99 AT time=16 ns
+			z=300 AT time=16 ns
+		y3=198 AT time=17 ns
+y1=101 AT time=17 ns
+	y2=99 AT time=17 ns
+			z=300 AT time=17 ns
+		y3=198 AT time=18 ns
+y1=101 AT time=18 ns
+	y2=99 AT time=18 ns
+			z=300 AT time=18 ns
+		y3=198 AT time=19 ns
+y1=101 AT time=19 ns
+	y2=99 AT time=19 ns
+			z=300 AT time=19 ns

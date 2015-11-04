@@ -1,0 +1,102 @@
+====================This is the write.====================
+trans = { W, 0 } , data = 103 at time 0 s delay = 10 ns
+Data: 103 is written into Address: 103
+trans = { W, 1 } , data = 198 at time 10 ns delay = 10 ns
+Data: 198 is written into Address: 198
+trans = { W, 2 } , data = 105 at time 20 ns delay = 10 ns
+Data: 105 is written into Address: 105
+trans = { W, 3 } , data = 115 at time 30 ns delay = 10 ns
+Data: 115 is written into Address: 115
+trans = { W, 4 } , data = 81 at time 40 ns delay = 10 ns
+Data: 81 is written into Address: 81
+trans = { W, 5 } , data = 255 at time 50 ns delay = 10 ns
+Data: 255 is written into Address: 255
+trans = { W, 6 } , data = 74 at time 60 ns delay = 10 ns
+Data: 74 is written into Address: 74
+trans = { W, 7 } , data = 236 at time 70 ns delay = 10 ns
+Data: 236 is written into Address: 236
+trans = { W, 8 } , data = 41 at time 80 ns delay = 10 ns
+Data: 41 is written into Address: 41
+trans = { W, 9 } , data = 205 at time 90 ns delay = 10 ns
+Data: 205 is written into Address: 205
+trans = { W, 10 } , data = 186 at time 100 ns delay = 10 ns
+Data: 186 is written into Address: 186
+trans = { W, 11 } , data = 171 at time 110 ns delay = 10 ns
+Data: 171 is written into Address: 171
+trans = { W, 12 } , data = 242 at time 120 ns delay = 10 ns
+Data: 242 is written into Address: 242
+trans = { W, 13 } , data = 251 at time 130 ns delay = 10 ns
+Data: 251 is written into Address: 251
+trans = { W, 14 } , data = 227 at time 140 ns delay = 10 ns
+Data: 227 is written into Address: 227
+trans = { W, 15 } , data = 70 at time 150 ns delay = 10 ns
+Data: 70 is written into Address: 70
+trans = { W, 16 } , data = 124 at time 160 ns delay = 10 ns
+Data: 124 is written into Address: 124
+trans = { W, 17 } , data = 194 at time 170 ns delay = 10 ns
+Data: 194 is written into Address: 194
+trans = { W, 18 } , data = 84 at time 180 ns delay = 10 ns
+Data: 84 is written into Address: 84
+trans = { W, 19 } , data = 248 at time 190 ns delay = 10 ns
+Data: 248 is written into Address: 248
+====================This is the read.====================
+trans = { R, 0 } , data = 27 at time 200 ns delay = 10 ns
+Data: 27 is read from Address: 27
+trans = { R, 1 } , data = 232 at time 210 ns delay = 10 ns
+Data: 232 is read from Address: 232
+trans = { R, 2 } , data = 231 at time 220 ns delay = 10 ns
+Data: 231 is read from Address: 231
+trans = { R, 3 } , data = 141 at time 230 ns delay = 10 ns
+Data: 141 is read from Address: 141
+trans = { R, 4 } , data = 118 at time 240 ns delay = 10 ns
+Data: 118 is read from Address: 118
+trans = { R, 5 } , data = 90 at time 250 ns delay = 10 ns
+Data: 90 is read from Address: 90
+trans = { R, 6 } , data = 46 at time 260 ns delay = 10 ns
+Data: 46 is read from Address: 46
+trans = { R, 7 } , data = 99 at time 270 ns delay = 10 ns
+Data: 99 is read from Address: 99
+trans = { R, 8 } , data = 51 at time 280 ns delay = 10 ns
+Data: 51 is read from Address: 51
+trans = { R, 9 } , data = 159 at time 290 ns delay = 10 ns
+Data: 159 is read from Address: 159
+trans = { R, 10 } , data = 201 at time 300 ns delay = 10 ns
+Data: 201 is read from Address: 201
+trans = { R, 11 } , data = 154 at time 310 ns delay = 10 ns
+Data: 154 is read from Address: 154
+trans = { R, 12 } , data = 102 at time 320 ns delay = 10 ns
+Data: 102 is read from Address: 102
+trans = { R, 13 } , data = 50 at time 330 ns delay = 10 ns
+Data: 50 is read from Address: 50
+trans = { R, 14 } , data = 13 at time 340 ns delay = 10 ns
+Data: 13 is read from Address: 13
+trans = { R, 15 } , data = 183 at time 350 ns delay = 10 ns
+Data: 183 is read from Address: 183
+trans = { R, 16 } , data = 49 at time 360 ns delay = 10 ns
+Data: 49 is read from Address: 49
+trans = { R, 17 } , data = 88 at time 370 ns delay = 10 ns
+Data: 88 is read from Address: 88
+trans = { R, 18 } , data = 163 at time 380 ns delay = 10 ns
+Data: 163 is read from Address: 163
+trans = { R, 19 } , data = 90 at time 390 ns delay = 10 ns
+Data: 90 is read from Address: 90
+trans = { R, 20 } , data = 37 at time 400 ns delay = 10 ns
+Data: 37 is read from Address: 37
+trans = { R, 21 } , data = 93 at time 410 ns delay = 10 ns
+Data: 93 is read from Address: 93
+trans = { R, 22 } , data = 5 at time 420 ns delay = 10 ns
+Data: 5 is read from Address: 5
+trans = { R, 23 } , data = 23 at time 430 ns delay = 10 ns
+Data: 23 is read from Address: 23
+trans = { R, 24 } , data = 88 at time 440 ns delay = 10 ns
+Data: 88 is read from Address: 88
+trans = { R, 25 } , data = 233 at time 450 ns delay = 10 ns
+Data: 233 is read from Address: 233
+trans = { R, 26 } , data = 94 at time 460 ns delay = 10 ns
+Data: 94 is read from Address: 94
+trans = { R, 27 } , data = 212 at time 470 ns delay = 10 ns
+Data: 212 is read from Address: 212
+trans = { R, 28 } , data = 171 at time 480 ns delay = 10 ns
+Data: 171 is read from Address: 171
+trans = { R, 29 } , data = 178 at time 490 ns delay = 10 ns
+Data: 178 is read from Address: 178

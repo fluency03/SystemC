@@ -1,0 +1,47 @@
+Write data:1 @0 s
+Write data:2 @0 s
+Write data:3 @0 s
+Write data:4 @0 s
+Write data:5 @0 s
+FALSE! FIFO is FULL!
+FALSE! FIFO is FULL!
+FALSE! FIFO is FULL!
+FALSE! FIFO is FULL!
+FALSE! FIFO is FULL!
+FALSE! FIFO is FULL!
+FALSE! FIFO is FULL!
+FALSE! FIFO is FULL!
+FALSE! FIFO is FULL!
+FALSE! FIFO is FULL!
+
+
+    Read data:1 @10 ns
+    Read data:3 @10 ns
+    Read data:5 @10 ns
+    Read data:7 @10 ns
+    Read data:9 @10 ns
+FALSE! FIFO is EMPTY!
+Write data:6 @10 ns
+Write data:7 @10 ns
+Write data:8 @10 ns
+Write data:9 @10 ns
+Write data:10 @10 ns
+    Read data:11 @11 ns
+    Read data:13 @11 ns
+    Read data:15 @11 ns
+    Read data:17 @11 ns
+    Read data:19 @11 ns
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!
+FALSE! FIFO is EMPTY!

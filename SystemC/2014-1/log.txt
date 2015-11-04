@@ -1,0 +1,33 @@
+x=0 AT time=0 s
+	y=0 AT time=0 s
+		z=0 AT time=0 s
+x=1 AT time=2 ns
+x=2 AT time=4 ns
+	y=2 AT time=5 ns
+x=3 AT time=6 ns
+x=4 AT time=8 ns
+	y=4 AT time=8 ns
+		z=3 AT time=9 ns
+x=5 AT time=10 ns
+	y=6 AT time=11 ns
+x=6 AT time=12 ns
+		z=6 AT time=13 ns
+	y=8 AT time=14 ns
+x=7 AT time=14 ns
+x=8 AT time=16 ns
+		z=9 AT time=17 ns
+	y=10 AT time=17 ns
+x=9 AT time=18 ns
+x=10 AT time=20 ns
+	y=12 AT time=20 ns
+		z=12 AT time=21 ns
+	y=14 AT time=23 ns
+		z=15 AT time=25 ns
+	y=16 AT time=26 ns
+	y=18 AT time=29 ns
+		z=18 AT time=29 ns
+	y=20 AT time=32 ns
+		z=21 AT time=33 ns
+		z=24 AT time=37 ns
+		z=27 AT time=41 ns
+		z=30 AT time=45 ns

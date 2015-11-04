@@ -4,117 +4,117 @@ Writing Address 0 value 1
 Writing Address 0 value 2
  ====================== MASTER3 ======================= 
 Read Address 0 got 2
- ====================== MASTER3 ======================= 
-Read Address 1 got 0
- ====================== MASTER2 ======================= 
-Writing Address 1 value 2
  ====================== MASTER1 ======================= 
 Writing Address 1 value 1
- ====================== MASTER3 ======================= 
-Read Address 2 got 0
  ====================== MASTER2 ======================= 
-Writing Address 2 value 2
+Writing Address 1 value 2
+ ====================== MASTER3 ======================= 
+Read Address 1 got 2
  ====================== MASTER1 ======================= 
 Writing Address 2 value 1
- ====================== MASTER3 ======================= 
-Read Address 3 got 0
  ====================== MASTER2 ======================= 
-Writing Address 3 value 2
+Writing Address 2 value 2
+ ====================== MASTER3 ======================= 
+Read Address 2 got 2
  ====================== MASTER1 ======================= 
 Writing Address 3 value 1
- ====================== MASTER3 ======================= 
-Read Address 4 got 0
  ====================== MASTER2 ======================= 
-Writing Address 4 value 2
+Writing Address 3 value 2
+ ====================== MASTER3 ======================= 
+Read Address 3 got 2
  ====================== MASTER1 ======================= 
 Writing Address 4 value 1
- ====================== MASTER3 ======================= 
-Read Address 5 got 0
  ====================== MASTER2 ======================= 
-Writing Address 5 value 2
+Writing Address 4 value 2
+ ====================== MASTER3 ======================= 
+Read Address 4 got 2
  ====================== MASTER1 ======================= 
 Writing Address 5 value 1
- ====================== MASTER3 ======================= 
-Read Address 6 got 0
  ====================== MASTER2 ======================= 
-Writing Address 6 value 2
+Writing Address 5 value 2
+ ====================== MASTER3 ======================= 
+Read Address 5 got 2
  ====================== MASTER1 ======================= 
 Writing Address 6 value 1
- ====================== MASTER3 ======================= 
-Read Address 7 got 0
  ====================== MASTER2 ======================= 
-Writing Address 7 value 2
+Writing Address 6 value 2
+ ====================== MASTER3 ======================= 
+Read Address 6 got 2
  ====================== MASTER1 ======================= 
 Writing Address 7 value 1
- ====================== MASTER3 ======================= 
-Read Address 8 got 0
  ====================== MASTER2 ======================= 
-Writing Address 8 value 2
+Writing Address 7 value 2
+ ====================== MASTER3 ======================= 
+Read Address 7 got 2
  ====================== MASTER1 ======================= 
 Writing Address 8 value 1
- ====================== MASTER3 ======================= 
-Read Address 9 got 0
  ====================== MASTER2 ======================= 
-Writing Address 9 value 2
+Writing Address 8 value 2
+ ====================== MASTER3 ======================= 
+Read Address 8 got 2
  ====================== MASTER1 ======================= 
 Writing Address 9 value 1
- ====================== MASTER3 ======================= 
-Read Address 10 got 0
  ====================== MASTER2 ======================= 
-Writing Address 10 value 2
+Writing Address 9 value 2
+ ====================== MASTER3 ======================= 
+Read Address 9 got 2
  ====================== MASTER1 ======================= 
 Writing Address 10 value 1
- ====================== MASTER3 ======================= 
-Read Address 11 got 0
  ====================== MASTER2 ======================= 
-Writing Address 11 value 2
+Writing Address 10 value 2
+ ====================== MASTER3 ======================= 
+Read Address 10 got 2
  ====================== MASTER1 ======================= 
 Writing Address 11 value 1
- ====================== MASTER3 ======================= 
-Read Address 12 got 0
  ====================== MASTER2 ======================= 
-Writing Address 12 value 2
+Writing Address 11 value 2
+ ====================== MASTER3 ======================= 
+Read Address 11 got 2
  ====================== MASTER1 ======================= 
 Writing Address 12 value 1
- ====================== MASTER3 ======================= 
-Read Address 13 got 0
  ====================== MASTER2 ======================= 
-Writing Address 13 value 2
+Writing Address 12 value 2
+ ====================== MASTER3 ======================= 
+Read Address 12 got 2
  ====================== MASTER1 ======================= 
 Writing Address 13 value 1
- ====================== MASTER3 ======================= 
-Read Address 14 got 0
  ====================== MASTER2 ======================= 
-Writing Address 14 value 2
+Writing Address 13 value 2
+ ====================== MASTER3 ======================= 
+Read Address 13 got 2
  ====================== MASTER1 ======================= 
 Writing Address 14 value 1
- ====================== MASTER3 ======================= 
-Read Address 15 got 0
  ====================== MASTER2 ======================= 
-Writing Address 15 value 2
+Writing Address 14 value 2
+ ====================== MASTER3 ======================= 
+Read Address 14 got 2
  ====================== MASTER1 ======================= 
 Writing Address 15 value 1
- ====================== MASTER3 ======================= 
-Read Address 16 got 0
  ====================== MASTER2 ======================= 
-Writing Address 16 value 2
+Writing Address 15 value 2
+ ====================== MASTER3 ======================= 
+Read Address 15 got 2
  ====================== MASTER1 ======================= 
 Writing Address 16 value 1
- ====================== MASTER3 ======================= 
-Read Address 17 got 0
  ====================== MASTER2 ======================= 
-Writing Address 17 value 2
+Writing Address 16 value 2
+ ====================== MASTER3 ======================= 
+Read Address 16 got 2
  ====================== MASTER1 ======================= 
 Writing Address 17 value 1
- ====================== MASTER3 ======================= 
-Read Address 18 got 0
  ====================== MASTER2 ======================= 
-Writing Address 18 value 2
+Writing Address 17 value 2
+ ====================== MASTER3 ======================= 
+Read Address 17 got 2
  ====================== MASTER1 ======================= 
 Writing Address 18 value 1
- ====================== MASTER3 ======================= 
-Read Address 19 got 0
  ====================== MASTER2 ======================= 
-Writing Address 19 value 2
+Writing Address 18 value 2
+ ====================== MASTER3 ======================= 
+Read Address 18 got 2
  ====================== MASTER1 ======================= 
 Writing Address 19 value 1
+ ====================== MASTER2 ======================= 
+Writing Address 19 value 2
+ ====================== MASTER3 ======================= 
+Read Address 19 got 2
